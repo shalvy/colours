@@ -32,6 +32,31 @@
  * ========================================================= */
 
 
+
+ .desc-size-1 {
+     width: 129px;
+     height: auto;
+ }
+
+ .desc-size-2 {
+     width: 317px;
+     height: auto;
+ }
+
+ .desc-size-3 {
+     width: 84px;
+     height: auto;
+ }
+
+ .desc-size-4 {
+     width: 145px;
+     height: auto;
+ }
+
+ .desc-size-5 {
+     width: 173px;
+     height: auto;
+ }
 /*! nouislider - 10.0.0 - 2016-12-10 16:00:32 */
 
 

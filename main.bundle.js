@@ -6818,6 +6818,13 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_81__comps_colorspages_cost_test_cost_test_component__ = __webpack_require__("./src/app/comps/colorspages/cost-test/cost-test.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_82__comps_colorspages_popover_popover_component__ = __webpack_require__("./src/app/comps/colorspages/popover/popover.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_83__comps_colorspages_test_table_test_table_component__ = __webpack_require__("./src/app/comps/colorspages/test-table/test-table.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_84__comps_colorspages_projects_setup_project_description_descsection_two_descsection_two_component__ = __webpack_require__("./src/app/comps/colorspages/projects/setup/project-description/descsection-two/descsection-two.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_85__comps_colorspages_projects_setup_project_description_descsection_one_descsection_one_component__ = __webpack_require__("./src/app/comps/colorspages/projects/setup/project-description/descsection-one/descsection-one.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_86__comps_colorspages_projects_setup_project_description_descsection_four_descsection_four_component__ = __webpack_require__("./src/app/comps/colorspages/projects/setup/project-description/descsection-four/descsection-four.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_87__comps_colorspages_projects_setup_project_description_descsection_three_descsection_three_component__ = __webpack_require__("./src/app/comps/colorspages/projects/setup/project-description/descsection-three/descsection-three.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_88__comps_colorspages_projects_setup_project_description_descsection_five_descsection_five_component__ = __webpack_require__("./src/app/comps/colorspages/projects/setup/project-description/descsection-five/descsection-five.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_89__comps_colorspages_projects_setup_project_description_descsection_six_descsection_six_component__ = __webpack_require__("./src/app/comps/colorspages/projects/setup/project-description/descsection-six/descsection-six.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_90__comps_colorspages_invite_option_invite_option_component__ = __webpack_require__("./src/app/comps/colorspages/invite-option/invite-option.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -6893,6 +6900,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 // tslint:disable-next-line:max-line-length
+
+
+
+
+
+
+
 
 
 
@@ -6996,7 +7010,14 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_79__comps_colorspages_cost_summary_section_six_section_six_component__["a" /* CostSectionSixComponent */],
             __WEBPACK_IMPORTED_MODULE_81__comps_colorspages_cost_test_cost_test_component__["a" /* CostTestComponent */],
             __WEBPACK_IMPORTED_MODULE_82__comps_colorspages_popover_popover_component__["a" /* PopoverComponent */],
-            __WEBPACK_IMPORTED_MODULE_83__comps_colorspages_test_table_test_table_component__["a" /* TestTableComponent */]
+            __WEBPACK_IMPORTED_MODULE_83__comps_colorspages_test_table_test_table_component__["a" /* TestTableComponent */],
+            __WEBPACK_IMPORTED_MODULE_85__comps_colorspages_projects_setup_project_description_descsection_one_descsection_one_component__["a" /* DescSectionOneComponent */],
+            __WEBPACK_IMPORTED_MODULE_84__comps_colorspages_projects_setup_project_description_descsection_two_descsection_two_component__["a" /* DescSectionTwoComponent */],
+            __WEBPACK_IMPORTED_MODULE_86__comps_colorspages_projects_setup_project_description_descsection_four_descsection_four_component__["a" /* DescSectionFourComponent */],
+            __WEBPACK_IMPORTED_MODULE_87__comps_colorspages_projects_setup_project_description_descsection_three_descsection_three_component__["a" /* DescSectionThreeComponent */],
+            __WEBPACK_IMPORTED_MODULE_88__comps_colorspages_projects_setup_project_description_descsection_five_descsection_five_component__["a" /* DescSectionFiveComponent */],
+            __WEBPACK_IMPORTED_MODULE_89__comps_colorspages_projects_setup_project_description_descsection_six_descsection_six_component__["a" /* DescSectionSixComponent */],
+            __WEBPACK_IMPORTED_MODULE_90__comps_colorspages_invite_option_invite_option_component__["a" /* InviteOptionComponent */]
             // services
             // AuthorizationDataService,
             // PersonalDataService,
@@ -7061,6 +7082,8 @@ AppModule = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__comps_colorspages_cost_summary_cost_table_cost_table_component__ = __webpack_require__("./src/app/comps/colorspages/cost-summary/cost-table/cost-table.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__comps_colorspages_cost_summary_cost_summary_component__ = __webpack_require__("./src/app/comps/colorspages/cost-summary/cost-summary.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__comps_colorspages_test_table_test_table_component__ = __webpack_require__("./src/app/comps/colorspages/test-table/test-table.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__comps_colorspages_invite_option_invite_option_component__ = __webpack_require__("./src/app/comps/colorspages/invite-option/invite-option.component.ts");
+
 
 
 
@@ -7171,6 +7194,10 @@ var AppRoutes = [{
     },
     { path: 'test-table',
         component: __WEBPACK_IMPORTED_MODULE_22__comps_colorspages_test_table_test_table_component__["a" /* TestTableComponent */]
+    },
+    {
+        path: 'invite-option',
+        component: __WEBPACK_IMPORTED_MODULE_23__comps_colorspages_invite_option_invite_option_component__["a" /* InviteOptionComponent */]
     },
     {
         path: '',
@@ -9064,7 +9091,7 @@ var _a, _b;
 /***/ "./src/app/comps/colorspages/cost-summary/section-five/section-five.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "\n<div class=\"container-fluid\">\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n            <div class=\"card-content\">\n                <table class=\"table table-bordered table-striped\">\n                    <!-- <thead></thead>\n                    <div class=\"row\">\n                        <div class=\"col-lg-4 col-md-3\">\n                            <div class=\"card-title\">\n                                <h5>Section</h5>\n                            </div>\n                        </div>\n                        <div class=\"col-lg-6 col-md-5\">\n                            <div class=\"form-group\">\n                                <select name=\"cities\" class=\"form-control\">\n                                    <option selected=\"\" value=\"5.0\">5</option>\n                                    <option value=\"1.0\">1</option>\n                                    <option value=\"2.0\">2</option>\n                                    <option value=\"3.0\">3</option>\n                                    <option value=\"4.0\">4</option>\n                                    <option value=\"5.0\">5</option>\n                                    <option value=\"6.0\">6</option>\n                                </select>\n                            </div>\n                        </div>\n                    </div> -->\n                    <tbody>\n                        <tr *ngFor=\"let item of items | async\">\n                            <!-- <td>{{$index+1}}</td> -->\n                            <td>{{item.section5}}</td>\n                            <td>{{item.section5_name}}</td>\n                            <td>{{item.section5_unit}}</td>\n                            <td>{{item.section5_quantity}}</td>\n                            <td>{{item.section5_amount}}</td>\n                        </tr>\n                        <tr>\n                            <td><input [(ngModel)]=\"section5\" name=\"section5\" class=\"form-control costsum-xs \"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section5_name\" name=\"section5_name\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section5_unit\" name=\"section5_unit\" class=\"form-control costsum-xs\"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section5_quantity\" name=\"section5_quantity\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section5_amount\" name=\"section5_amount\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input type=\"submit\" (click)=\"saveItem5()\"> </td>\n                        </tr>\n                    </tbody>\n                </table>\n            </div>\n        </div>\n    </div>\n</div>\n"
+module.exports = "\n<div class=\"container-fluid\">\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n            <div class=\"card-content\">\n                <table class=\"table table-bordered table-striped\">\n                    <!-- <thead></thead>\n                    <div class=\"row\">\n                        <div class=\"col-lg-4 col-md-3\">\n                            <div class=\"card-title\">\n                                <h5>Section</h5>\n                            </div>\n                        </div>\n                        <div class=\"col-lg-6 col-md-5\">\n                            <div class=\"form-group\">\n                                <select name=\"cities\" class=\"form-control\">\n                                    <option selected=\"\" value=\"5.0\">5</option>\n                                    <option value=\"1.0\">1</option>\n                                    <option value=\"2.0\">2</option>\n                                    <option value=\"3.0\">3</option>\n                                    <option value=\"4.0\">4</option>\n                                    <option value=\"5.0\">5</option>\n                                    <option value=\"6.0\">6</option>\n                                </select>\n                            </div>\n                        </div>\n                    </div> -->\n                    <tbody>\n                        <tr *ngFor=\"let item of items | async\">\n                            <!-- <td>{{$index+1}}</td> -->\n                            <td style=\"width: 129px;\">{{item.section5}}</td>\n                            <td style=\"width: 320px;\">{{item.section5_name}}</td>\n                            <td style=\"width: 84px;\">{{item.section5_unit}}</td>\n                            <td style=\"width: 145px;\">{{item.section5_quantity}}</td>\n                            <td style=\"width: 137px;\">{{item.section5_amount}}</td>\n                        </tr>\n                        <tr>\n                            <td><input [(ngModel)]=\"section5\" name=\"section5\" class=\"form-control costsum-xs \"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section5_name\" name=\"section5_name\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section5_unit\" name=\"section5_unit\" class=\"form-control costsum-xs\"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section5_quantity\" name=\"section5_quantity\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section5_amount\" name=\"section5_amount\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td style=\"width: 1em; padding-left: 0px; padding-right: 0px; border-left-width: 0px;border-right-width: 0px;\"><a class=\"btn btn-primary btn-simple\"  (click)=\"saveItem5()\" ><i class=\"fa fa-plus fw\"> </i> </a> </td>\n                            <!-- <td><input type=\"submit\" (click)=\"saveItem5()\"> </td> -->\n                        </tr>\n                    </tbody>\n                </table>\n            </div>\n        </div>\n    </div>\n</div>\n"
 
 /***/ }),
 
@@ -9095,7 +9122,7 @@ var CostSectionFiveComponent = (function () {
         this.items = db.collection('sectiontest5', function (ref) { return ref.orderBy('section5_name'); }).valueChanges();
     }
     CostSectionFiveComponent.prototype.saveItem5 = function () {
-        console.log('saving');
+        // console.log('saving');
         this.db.collection('sectiontest5').add({
             'section5': this.section5,
             'section5_name': this.section5_name,
@@ -9129,7 +9156,7 @@ var _a, _b;
 /***/ "./src/app/comps/colorspages/cost-summary/section-four/section-four.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "\n<div class=\"container-fluid\">\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n            <div class=\"card-content\">\n                <table class=\"table table-bordered table-striped\">\n                    <!-- <thead></thead>\n                    <div class=\"row\">\n                        <div class=\"col-lg-4 col-md-3\">\n                            <div class=\"card-title\">\n                                <h5>Section</h5>\n                            </div>\n                        </div>\n                        <div class=\"col-lg-6 col-md-5\">\n                            <div class=\"form-group\">\n                                <select name=\"cities\" class=\"form-control\">\n                                    <option selected=\"\" value=\"4.0\">4</option>\n                                    <option value=\"1.0\">1</option>\n                                    <option value=\"2.0\">2</option>\n                                    <option value=\"3.0\">3</option>\n                                    <option value=\"4.0\">4</option>\n                                    <option value=\"5.0\">5</option>\n                                    <option value=\"6.0\">6</option>\n                                </select>\n                            </div>\n                        </div>\n                    </div> -->\n                    <tbody>\n                        <tr *ngFor=\"let item of items | async\">\n                            <!-- <td>{{$index+1}}</td> -->\n                            <td>{{item.section4}}</td>\n                            <td>{{item.section4_name}}</td>\n                            <td>{{item.section4_unit}}</td>\n                            <td>{{item.section4_quantity}}</td>\n                            <td>{{item.section4_amount}}</td>\n                        </tr>\n                        <tr>\n                            <td><input [(ngModel)]=\"section4\" name=\"section4\" class=\"form-control costsum-xs \"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section4_name\" name=\"section4_name\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section4_unit\" name=\"section4_unit\" class=\"form-control costsum-xs\"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section4_quantity\" name=\"section4_quantity\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section4_amount\" name=\"section4_amount\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input type=\"submit\" (click)=\"saveItem4()\"> </td>\n                        </tr>\n                    </tbody>\n                </table>\n            </div>\n        </div>\n    </div>\n</div>\n"
+module.exports = "\n<div class=\"container-fluid\">\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n            <div class=\"card-content\">\n                <table class=\"table table-bordered table-striped\">\n                    <!-- <thead></thead>\n                    <div class=\"row\">\n                        <div class=\"col-lg-4 col-md-3\">\n                            <div class=\"card-title\">\n                                <h5>Section</h5>\n                            </div>\n                        </div>\n                        <div class=\"col-lg-6 col-md-5\">\n                            <div class=\"form-group\">\n                                <select name=\"cities\" class=\"form-control\">\n                                    <option selected=\"\" value=\"4.0\">4</option>\n                                    <option value=\"1.0\">1</option>\n                                    <option value=\"2.0\">2</option>\n                                    <option value=\"3.0\">3</option>\n                                    <option value=\"4.0\">4</option>\n                                    <option value=\"5.0\">5</option>\n                                    <option value=\"6.0\">6</option>\n                                </select>\n                            </div>\n                        </div>\n                    </div> -->\n                    <tbody>\n                        <tr *ngFor=\"let item of items | async\">\n                            <!-- <td>{{$index+1}}</td> -->\n                            <td style=\"width: 129px;\">{{item.section4}}</td>\n                            <td style=\"width: 320px;\">{{item.section4_name}}</td>\n                            <td style=\"width: 84px;\">{{item.section4_unit}}</td>\n                            <td style=\"width: 145px;\">{{item.section4_quantity}}</td>\n                            <td style=\"width: 137px;\">{{item.section4_amount}}</td>\n                        </tr>\n                        <tr>\n                            <td><input [(ngModel)]=\"section4\" name=\"section4\" class=\"form-control costsum-xs \"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section4_name\" name=\"section4_name\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section4_unit\" name=\"section4_unit\" class=\"form-control costsum-xs\"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section4_quantity\" name=\"section4_quantity\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section4_amount\" name=\"section4_amount\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td style=\"width: 1em; padding-left: 0px; padding-right: 0px; border-left-width: 0px;border-right-width: 0px;\"><a class=\"btn btn-primary btn-simple\"  (click)=\"saveItem4()\" ><i class=\"fa fa-plus fw\"> </i> </a> </td>\n                            <!-- <td><input type=\"submit\" (click)=\"saveItem4()\"> </td> -->\n                        </tr>\n                    </tbody>\n                </table>\n            </div>\n        </div>\n    </div>\n</div>\n"
 
 /***/ }),
 
@@ -9194,7 +9221,7 @@ var _a, _b;
 /***/ "./src/app/comps/colorspages/cost-summary/section-one/section-one.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "\n<div class=\"container-fluid\">\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n            <!-- <div class=\"card\"> -->\n                <div class=\"header\">\n                    <h4 class=\"title\">Project Cost Summary</h4>\n                    <!-- <p class=\"category\">Here is a subtitle for this table</p> -->\n                </div>\n                <hr>\n                <div class=\"card-content\">\n                    <table class=\"table table-bordered table-striped\">\n                    <thead>\n                        <tr>\n                            <!-- <th></th> -->\n                            <th>Section</th>\n                            <th>Name</th>\n                            <th>Unit</th>\n                            <th>Quantity</th>\n                            <th>Amount</th>\n                        </tr>\n                    </thead>\n                    <!-- <tr></tr>\n                    <div class=\"row\">\n                        <div class=\"col-md-4\">\n                            <div class=\"card-title\">\n                                <h5>Section</h5>\n                            </div>\n                        </div>\n                        <div class=\"col-md-3 col-md-offset-1\">\n                            <div class=\"form-group\">\n                                <select name=\"cities\" class=\"form-control\">\n                                    <option selected=\"\" disabled=\"\" value=\"1.0\">1</option>\n                                    <option value=\"1.0\">1</option>\n                                    <option value=\"2.0\">2</option>\n                                    <option value=\"3.0\">3</option>\n                                    <option value=\"4.0\">4</option>\n                                    <option value=\"5.0\">5</option>\n                                    <option value=\"6.0\">6</option>\n                                </select>\n                            </div>\n                        </div>\n                    </div> -->\n                    <tbody>\n                        <tr *ngFor=\"let item of items | async\">\n                            <!-- <td>{{$index+1}}</td> -->\n                            <td>{{item.section1}}</td>\n                            <td>{{item.section1_name}}</td>\n                            <td>{{item.section1_unit}}</td>\n                            <td>{{item.section1_quantity}}</td>\n                            <td>{{item.section1_amount}}</td>\n                        </tr>\n                        <tr>\n                            <td><input [(ngModel)]=\"section1\" name=\"section1\" class=\"form-control costsum-xs \"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section1_name\" name=\"section1_name\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section1_unit\" name=\"section1_unit\" class=\"form-control costsum-xs\"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section1_quantity\" name=\"section1_quantity\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section1_amount\" name=\"section1_amount\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input type=\"submit\" (click)=\"saveItem1()\"> </td>\n                        </tr>\n                    </tbody>\n                </table>\n\n                </div>\n            <!-- </div> -->\n        </div>\n    </div>\n</div>\n"
+module.exports = "\n<div class=\"container-fluid\">\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n                <hr>\n                <div class=\"card-content\">\n                    <table class=\"table table-bordered table-striped\">\n                    <thead>\n                        <tr>\n                            <th class=\"\" style=\"width: 129px;\">Section</th>\n                            <th class=\"\" style=\"width: 320px;\">Name</th>\n                            <th class=\"\" style=\"width: 84px;\">Unit</th>\n                            <th class=\"\" style=\"width: 145px;\">Quantity</th>\n                            <th class=\"\" style=\"width: 137px;\">Amount</th>\n                        </tr>\n                    </thead>\n                    <tbody>\n                        <tr *ngFor=\"let item of items | async\">\n                            <td class=\"\" style=\"width: 129px;\">{{item.section1}}</td>\n                            <td class=\"\" style=\"width: 320px;\">{{item.section1_name}}</td>\n                            <td class=\"\" style=\"width: 84px;\">{{item.section1_unit}}</td>\n                            <td class=\"\" style=\"width: 145px;\">{{item.section1_quantity}}</td>\n                            <td class=\"\"  style=\"width: 137px;\">{{item.section1_amount}}</td>\n                        </tr>\n                        <tr>\n                            <td><input [(ngModel)]=\"section1\" name=\"section1\" class=\"form-control costsum-xs\"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section1_name\" name=\"section1_name\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section1_unit\" name=\"section1_unit\" class=\"form-control costsum-xs\"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section1_quantity\" name=\"section1_quantity\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section1_amount\" name=\"section1_amount\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td style=\"width: 1em; padding-left: 0px; padding-right: 0px; border-left-width: 0px;border-right-width: 0px;\"><a class=\"btn btn-primary btn-simple\"  (click)=\"saveItem1()\" ><i class=\"fa fa-plus fw\"> </i> </a> </td>\n                        </tr>\n                    </tbody>\n                </table>\n                </div>\n        </div>\n    </div>\n</div>\n"
 
 /***/ }),
 
@@ -9259,7 +9286,7 @@ var _a, _b;
 /***/ "./src/app/comps/colorspages/cost-summary/section-six/section-six.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "\n<div class=\"container-fluid\">\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n            <div class=\"card-content\">\n                <table class=\"table table-bordered table-striped\">\n                    <thead></thead>\n                    <!-- <div class=\"row\">\n                        <div class=\"col-lg-4 col-md-3\">\n                            <div class=\"card-title\">\n                                <h5>Section</h5>\n                            </div>\n                        </div>\n                        <div class=\"col-lg-6 col-md-5\">\n                            <div class=\"form-group\">\n                                <select name=\"cities\" class=\"form-control\">\n                                    <option selected=\"\"value=\"6.0\">6</option>\n                                    <option value=\"1.0\">1</option>\n                                    <option value=\"2.0\">2</option>\n                                    <option value=\"3.0\">3</option>\n                                    <option value=\"4.0\">4</option>\n                                    <option value=\"5.0\">5</option>\n                                    <option value=\"6.0\">6</option>\n                                </select>\n                            </div>\n                        </div>\n                    </div> -->\n                    <tbody>\n                        <tr *ngFor=\"let item of items | async\">\n                            <!-- <td>{{$index+1}}</td> -->\n                            <td>{{item.section6}}</td>\n                            <td>{{item.section6_name}}</td>\n                            <td>{{item.section6_unit}}</td>\n                            <td>{{item.section6_quantity}}</td>\n                            <td>{{item.section6_amount}}</td>\n                        </tr>\n                        <tr>\n                            <td><input [(ngModel)]=\"section6\" name=\"section6\" class=\"form-control costsum-xs \"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section6_name\" name=\"section6_name\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section6_unit\" name=\"section6_unit\" class=\"form-control costsum-xs\"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section6_quantity\" name=\"section6_quantity\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section6_amount\" name=\"section6_amount\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input type=\"submit\" (click)=\"saveItem6()\"> </td>\n                        </tr>\n                    </tbody>\n                </table>\n            </div>\n        </div>\n    </div>\n</div>\n"
+module.exports = "\n<div class=\"container-fluid\">\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n            <div class=\"card-content\">\n                <table class=\"table table-bordered table-striped\">\n                    <thead></thead>\n                    <!-- <div class=\"row\">\n                        <div class=\"col-lg-4 col-md-3\">\n                            <div class=\"card-title\">\n                                <h5>Section</h5>\n                            </div>\n                        </div>\n                        <div class=\"col-lg-6 col-md-5\">\n                            <div class=\"form-group\">\n                                <select name=\"cities\" class=\"form-control\">\n                                    <option selected=\"\"value=\"6.0\">6</option>\n                                    <option value=\"1.0\">1</option>\n                                    <option value=\"2.0\">2</option>\n                                    <option value=\"3.0\">3</option>\n                                    <option value=\"4.0\">4</option>\n                                    <option value=\"5.0\">5</option>\n                                    <option value=\"6.0\">6</option>\n                                </select>\n                            </div>\n                        </div>\n                    </div> -->\n                    <tbody>\n                        <tr *ngFor=\"let item of items | async\">\n                            <!-- <td>{{$index+1}}</td> -->\n                            <td style=\"width: 129px;\">{{item.section6}}</td>\n                            <td style=\"width: 320px;\">{{item.section6_name}}</td>\n                            <td style=\"width: 84px;\">{{item.section6_unit}}</td>\n                            <td style=\"width: 145px;\">{{item.section6_quantity}}</td>\n                            <td style=\"width: 137px;\">{{item.section6_amount}}</td>\n                        </tr>\n                        <tr>\n                            <td><input [(ngModel)]=\"section6\" name=\"section6\" class=\"form-control costsum-xs \"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section6_name\" name=\"section6_name\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section6_unit\" name=\"section6_unit\" class=\"form-control costsum-xs\"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section6_quantity\" name=\"section6_quantity\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section6_amount\" name=\"section6_amount\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td style=\"width: 1em; padding-left: 0px; padding-right: 0px; border-left-width: 0px;border-right-width: 0px;\"><a class=\"btn btn-primary btn-simple\"  (click)=\"saveItem6()\" ><i class=\"fa fa-plus fw\"> </i> </a> </td>\n                            <!-- <td><input type=\"submit\" (click)=\"saveItem6()\"> </td> -->\n                        </tr>\n                    </tbody>\n                </table>\n            </div>\n        </div>\n    </div>\n</div>\n"
 
 /***/ }),
 
@@ -9324,7 +9351,7 @@ var _a, _b;
 /***/ "./src/app/comps/colorspages/cost-summary/section-three/section-three.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "\n<div class=\"container-fluid\">\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n            <div class=\"card-content\">\n                <table class=\"table table-bordered table-striped\">\n                    <!-- <thead>\n                    <div class=\"row\">\n                        <div class=\"col-lg-4 col-md-3\">\n                            <div class=\"card-title\">\n                                <h5>Section</h5>\n                            </div>\n                        </div>\n                        <div class=\"col-lg-6 col-md-5\">\n                            <div class=\"form-group\">\n                                <select name=\"cities\" class=\"form-control\">\n                                    <option selected=\"\" disabled=\"\"value=\"3.0\">3</option>\n                                    <option value=\"1.0\">1</option>\n                                    <option value=\"2.0\">2</option>\n                                    <option value=\"3.0\">3</option>\n                                    <option value=\"4.0\">4</option>\n                                    <option value=\"5.0\">5</option>\n                                    <option value=\"6.0\">6</option>\n                                </select>\n                            </div>\n                        </div>\n                    </div>\n                    </thead> -->\n                    <tbody>\n                        <tr *ngFor=\"let item of items | async\">\n                            <!-- <td>{{$index+1}}</td> -->\n                            <td>{{item.section3}}</td>\n                            <td>{{item.section3_name}}</td>\n                            <td>{{item.section3_unit}}</td>\n                            <td>{{item.section3_quantity}}</td>\n                            <td>{{item.section3_amount}}</td>\n                        </tr>\n                        <tr>\n                            <td><input [(ngModel)]=\"section3\" name=\"section3\" class=\"form-control costsum-xs \"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section3_name\" name=\"section3_name\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section3_unit\" name=\"section3_unit\" class=\"form-control costsum-xs\"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section3_quantity\" name=\"section3_quantity\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section3_amount\" name=\"section3_amount\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input type=\"submit\" (click)=\"saveItem3()\"> </td>\n                        </tr>\n                    </tbody>\n                </table>\n            </div>\n        </div>\n    </div>\n</div>\n"
+module.exports = "\n<div class=\"container-fluid\">\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n            <div class=\"card-content\">\n                <table class=\"table table-bordered table-striped\">\n                    <!-- <thead>\n                    <div class=\"row\">\n                        <div class=\"col-lg-4 col-md-3\">\n                            <div class=\"card-title\">\n                                <h5>Section</h5>\n                            </div>\n                        </div>\n                        <div class=\"col-lg-6 col-md-5\">\n                            <div class=\"form-group\">\n                                <select name=\"cities\" class=\"form-control\">\n                                    <option selected=\"\" disabled=\"\"value=\"3.0\">3</option>\n                                    <option value=\"1.0\">1</option>\n                                    <option value=\"2.0\">2</option>\n                                    <option value=\"3.0\">3</option>\n                                    <option value=\"4.0\">4</option>\n                                    <option value=\"5.0\">5</option>\n                                    <option value=\"6.0\">6</option>\n                                </select>\n                            </div>\n                        </div>\n                    </div>\n                    </thead> -->\n                    <tbody>\n                        <tr *ngFor=\"let item of items | async\">\n                            <!-- <td>{{$index+1}}</td> -->\n                            <td style=\"width: 129px;\">{{item.section3}}</td>\n                            <td style=\"width: 320px;\">{{item.section3_name}}</td>\n                            <td style=\"width: 84px;\">{{item.section3_unit}}</td>\n                            <td style=\"width: 145px;\">{{item.section3_quantity}}</td>\n                            <td style=\"width: 137px;\">{{item.section3_amount}}</td>\n                        </tr>\n                        <tr>\n                            <td><input [(ngModel)]=\"section3\" name=\"section3\" class=\"form-control costsum-xs \"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section3_name\" name=\"section3_name\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section3_unit\" name=\"section3_unit\" class=\"form-control costsum-xs\"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section3_quantity\" name=\"section3_quantity\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section3_amount\" name=\"section3_amount\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td style=\"width: 1em; padding-left: 0px; padding-right: 0px; border-left-width: 0px;border-right-width: 0px;\"><a class=\"btn btn-primary btn-simple\"  (click)=\"saveItem3()\" ><i class=\"fa fa-plus fw\"> </i> </a> </td>\n                            <!-- <td><input type=\"submit\" (click)=\"saveItem3()\"> </td> -->\n                        </tr>\n                    </tbody>\n                </table>\n            </div>\n        </div>\n    </div>\n</div>\n"
 
 /***/ }),
 
@@ -9355,7 +9382,7 @@ var CostSectionThreeComponent = (function () {
         this.items = db.collection('sectiontest3', function (ref) { return ref.orderBy('section3_name'); }).valueChanges();
     }
     CostSectionThreeComponent.prototype.saveItem3 = function () {
-        console.log('saving');
+        // console.log('saving');
         this.db.collection('sectiontest3').add({
             'section3': this.section3,
             'section3_name': this.section3_name,
@@ -9389,7 +9416,7 @@ var _a, _b;
 /***/ "./src/app/comps/colorspages/cost-summary/section-two/section-two.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "\n<div class=\"container-fluid\">\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n            <div class=\"card-content\">\n                <table class=\"table table-bordered table-striped\">\n                    <!-- <thead></thead>\n                    <div class=\"row\">\n                        <div class=\"col-lg-4 col-md-3\">\n                            <div class=\"card-title\">\n                                <h5>Section</h5>\n                            </div>\n                        </div>\n                        <div class=\"col-lg-6 col-md-5\">\n                            <div class=\"form-group\">\n                                <select name=\"cities\" class=\"form-control\">\n                                    <option selected=\"\" disabled=\"\" value=\"2.0\">2</option>\n                                    <option value=\"1.0\">1</option>\n                                    <option value=\"2.0\">2</option>\n                                    <option value=\"3.0\">3</option>\n                                    <option value=\"4.0\">4</option>\n                                    <option value=\"5.0\">5</option>\n                                    <option value=\"6.0\">6</option>\n                                </select>\n                            </div>\n                        </div>\n                    </div> -->\n                    <tbody>\n                        <tr *ngFor=\"let item of items | async\">\n                            <!-- <td>{{$index+1}}</td> -->\n                            <td>{{item.section2}}</td>\n                            <td>{{item.section2_name}}</td>\n                            <td>{{item.section2_unit}}</td>\n                            <td>{{item.section2_quantity}}</td>\n                            <td>{{item.section2_amount}}</td>\n                        </tr>\n                        <tr>\n                            <td><input [(ngModel)]=\"section2\" name=\"section2\" class=\"form-control costsum-xs \"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section2_name\" name=\"section2_name\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section2_unit\" name=\"section2_unit\" class=\"form-control costsum-xs\"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section2_quantity\" name=\"section2_quantity\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section2_amount\" name=\"section2_amount\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input type=\"submit\" (click)=\"saveItem2()\"> </td>\n                        </tr>\n                    </tbody>\n                </table>\n            </div>\n        </div>\n    </div>\n</div>\n"
+module.exports = "\n<div class=\"container-fluid\">\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n            <div class=\"card-content\">\n                <table class=\"table table-bordered table-striped\">\n                    <!-- <thead></thead>\n                    <div class=\"row\">\n                        <div class=\"col-lg-4 col-md-3\">\n                            <div class=\"card-title\">\n                                <h5>Section</h5>\n                            </div>\n                        </div>\n                        <div class=\"col-lg-6 col-md-5\">\n                            <div class=\"form-group\">\n                                <select name=\"cities\" class=\"form-control\">\n                                    <option selected=\"\" disabled=\"\" value=\"2.0\">2</option>\n                                    <option value=\"1.0\">1</option>\n                                    <option value=\"2.0\">2</option>\n                                    <option value=\"3.0\">3</option>\n                                    <option value=\"4.0\">4</option>\n                                    <option value=\"5.0\">5</option>\n                                    <option value=\"6.0\">6</option>\n                                </select>\n                            </div>\n                        </div>\n                    </div> -->\n                    <tbody>\n                        <tr *ngFor=\"let item of items | async\">\n                            <!-- <td>{{$index+1}}</td> -->\n                            <td class=\"\" style=\"width: 129px;\">{{item.section2}}</td>\n                            <td class=\"\" style=\"width: 320px;\">{{item.section2_name}}</td><!-- style=\"width: 149px;\" -->\n                            <td class=\"\" style=\"width: 84px;\">{{item.section2_unit}}</td>\n                            <td class=\"\" style=\"width: 145px;\">{{item.section2_quantity}}</td>\n                            <td class=\"\" style=\"width: 137px;\">{{item.section2_amount}}</td>\n                        </tr>\n                        <tr>\n                            <td class=\"desc-size-1\"><input [(ngModel)]=\"section2\" name=\"section2\" class=\"form-control costsum-xs \"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td class=\"desc-size-4\"><input [(ngModel)]=\"section2_name\" name=\"section2_name\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td class=\"desc-size-4\"><input [(ngModel)]=\"section2_unit\" name=\"section2_unit\" class=\"form-control costsum-xs\"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td class=\"desc-size-4\"><input [(ngModel)]=\"section2_quantity\" name=\"section2_quantity\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td class=\"desc-size-4\"><input [(ngModel)]=\"section2_amount\" name=\"section2_amount\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td style=\"width: 1em; padding-left: 0px; padding-right: 0px; border-left-width: 0px;border-right-width: 0px;\"><a class=\"btn btn-primary btn-simple\"  (click)=\"saveItem2()\" ><i class=\"fa fa-plus fw\"> </i> </a> </td>\n                            <!-- <td><input type=\"submit\" (click)=\"saveItem2()\"> </td> -->\n                        </tr>\n                    </tbody>\n                </table>\n            </div>\n        </div>\n    </div>\n</div>\n"
 
 /***/ }),
 
@@ -9504,7 +9531,7 @@ CostTestComponent = __decorate([
 /***/ "./src/app/comps/colorspages/directory-wizard/company-wizard/company-wizard.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"main-content\">\n    <div class=\"container-fluid\">\n        <div class=\"row\">\n            <div class=\"col-md-10 col-md-offset-1 \"> <!-- style=\"margin-left: 3em\" -->\n                <!-- col-md-offset-1 -->\n                <div class=\"card card-wizard\" id=\"wizardCard\">\n                    <form id=\"wizardForm\" method=\"\" action=\"\">\n                        <div class=\"card-header text-center\">\n                            <h4 class=\"card-title\">Advanced Company Profile Setup</h4>\n                            <!-- <p class=\"category\">Complete the steps for peer project connection</p> -->\n                        </div>\n                        <div class=\"card-content\">\n                            <ul class=\"nav nav-pills\">\n                                <li>\n                                    <a href=\"#tab1\" data-toggle=\"tab\">Company details</a>\n                                </li>\n                                <li>\n                                    <a href=\"#tab2\" data-toggle=\"tab\">Address</a>\n                                </li>\n                                <!-- <li>\n                                    <a href=\"#tab3\" data-toggle=\"tab\">Email</a>\n                                </li> -->\n                                <li>\n                                    <a href=\"#tab3\" data-toggle=\"tab\">Finish</a>\n                                </li>\n                            </ul>\n                            <div class=\"tab-content\">\n                                <div class=\"tab-pane \" id=\"tab1\">\n                                    <h3 class=\"text-center\" style=\"margin-top: 0px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 10px;\">\n                                      <small>  Please input correct information.</small></h3>\n                                    <div class=\"row\">\n                                        <div class=\"col-md-5 col-md-offset-1\">\n                                            <div class=\"form-group\">\n                                                <label class=\"control-label\">\n                                                    Role\n                                                </label>\n                                                <input class=\"form-control\" type=\"text\" name=\"role\" placeholder=\"ex: Mike\" />\n                                            </div>\n                                        </div>\n                                        <div class=\"col-md-5\">\n                                            <div class=\"form-group\">\n                                                <label class=\"control-label\">\n                                                    Company\n                                                </label>\n                                                <input class=\"form-control\" type=\"text\" name=\"company\" required=\"true\" placeholder=\"ex: Andrew\" />\n                                            </div>\n                                        </div>\n                                    </div>\n                                    <!-- <div class=\"row\">\n                                        <div class=\"col-md-10 col-md-offset-1\">\n                                            <div class=\"form-group\">\n                                                <label class=\"control-label\">\n                                                    Email\n                                                    <span class=\"star\">*</span>\n                                                </label>\n                                                <input class=\"form-control\" type=\"text\" name=\"email\" email=\"true\" placeholder=\"ex: hello@team.com\" />\n                                            </div>\n                                        </div>\n                                    </div> -->\n                                    <div class=\"row\">\n                                        <div class=\"col-md-5 col-md-offset-1\">\n                                            <div class=\"form-group\">\n                                                <label class=\"control-label\">Fax\n                                                    <span class=\"star\">*</span>\n                                                </label>\n                                                <input class=\"form-control\" type=\"tel\" name=\"fax\" placeholder=\"ex: 249999\" />\n                                            </div>\n                                        </div>\n                                        <div class=\"col-md-5\">\n                                            <div class=\"form-group\">\n                                                <label class=\"control-label\">\n                                                    Code\n                                                </label>\n                                                <input class=\"form-control\" type=\"tel\" name=\"code\" placeholder=\"ex: 06\" />\n                                            </div>\n                                        </div>\n                                    </div>\n\n                                    <div class=\"row\">\n                                        <div class=\"col-md-5 col-md-offset-1\">\n                                            <div class=\"form-group\">\n                                                <label class=\"control-label\">Contact: Telephone\n                                                    <span class=\"star\">*</span>\n                                                </label>\n                                                <input class=\"form-control\" type=\"tel\" name=\"role\" required placeholder=\"ex:  072 8988 898\" />\n                                            </div>\n                                        </div>\n                                    </div>\n                        \n\n                                </div>\n                                <div class=\"tab-pane\" id=\"tab2\">\n                                    <h5 class=\"text-center\">Please give us more details about your platform.</h5>\n                                    <Div class=\"row\">\n                                        <div class=\"col-md-8 col-md-offset-2\">\n                                            <div class=\"form-group\">\n                                                <label class=\"control-label\">\n                                                    Physical Address\n                                                </label>\n                                                <input class=\"form-control\" type=\"text\" name=\"role\" required placeholder=\"ex:  7 Woodgate, Mt Mouris\" />\n                                            </div>\n                                        </div>\n                                    </Div>\n                                   <div class=\"row\">\n                                        <div class=\"col-md-8 col-md-offset-2\">\n                                            <div class=\"form-group\">\n                                                <label class=\"control-label\">\n                                                    Email\n                                                    <span class=\"star\">*</span>\n                                                </label>\n                                                <input class=\"form-control\" type=\"text\" name=\"email\" email=\"true\" placeholder=\"ex: hello@team.com\" />\n                                            </div>\n                                        </div>\n                                    </div>\n                                    <div class=\"row\">\n                                        <div class=\"col-md-5 col-md-offset-2\">\n                                            <div class=\"form-group\">\n                                                <label class=\"control-label\">\n                                                    Town / City\n                                                </label>\n                                                <input class=\"form-control\" type=\"text\" name=\"cities\" required placeholder=\"ex:  Harare\" />\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n                                <!-- <div class=\"tab-pane\" id=\"tab3\">\n\n                                    <h5 class=\"text-center\">Add the recipient </h5>\n                                    <div class=\"row\">\n                                        <div class=\"col-md-10 col-md-offset-1\">\n                                            <div class=\"form-group\">\n                                                <label class=\"control-label\">To\n                                                    <span class=\"star\">*</span>\n                                                </label>\n                                                <input class=\"form-control\" type=\"tel\" name=\"fax\" placeholder=\"email: tben@gmail.com\" />\n                                            </div>\n                                        </div>\n                                    </div>\n                                    <div class=\"row\">\n                                        <div class=\"col-md-10 col-md-offset-1\">\n                                            <div class=\"form-group\">\n                                                <label class=\"control-label\">Message\n                                                    <span class=\"star\">*</span>\n                                                </label>\n                                                <textarea class=\"form-control\" type=\"text\" name=\"fax\" value=\"Connection request for the project\" placeholder=\"My message....\"></textarea>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div> -->\n                                <div class=\"tab-pane\" id=\"tab3\">\n                                    <h2 class=\"text-center text-space\">Yuhuuu!\n                                        <br>\n                                        <small> Click on \"\n                                            <b>Finish</b>\" to join our community</small>\n                                    </h2>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"card-footer\">\n                            <button type=\"button\" class=\"btn btn-default btn-fill btn-wd btn-back pull-left\">Back</button>\n                            <button type=\"button\" class=\"btn btn-info btn-fill btn-wd btn-next pull-right\">Next</button>\n                            <button type=\"button\" class=\"btn btn-info btn-fill btn-wd btn-finish pull-right\" (click)=\"onFinishWizard()\" (click)=\"saveItem()\">Finish</button>\n                            <div class=\"clearfix\"></div>\n                        </div>\n                    </form>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n"
+module.exports = "<div class=\"main-content\">\n    <div class=\"container-fluid\">\n        <div class=\"row\">\n            <div class=\"col-md-10 col-md-offset-1 \"> <!-- style=\"margin-left: 3em\" -->\n                <!-- col-md-offset-1 -->\n                <div class=\"card card-wizard\" id=\"wizardCard\">\n                    <form id=\"wizardForm\" method=\"\" action=\"\">\n                        <div class=\"card-header text-center\">\n                            <h4 class=\"card-title\">Advanced Company Profile Setup</h4>\n                            <!-- <p class=\"category\">Complete the steps for peer project connection</p> -->\n                        </div>\n                        <div class=\"card-content\">\n                            <ul class=\"nav nav-pills\">\n                                <li>\n                                    <a href=\"#tab1\" data-toggle=\"tab\">Company details</a>\n                                </li>\n                                <li>\n                                    <a href=\"#tab2\" data-toggle=\"tab\">Address</a>\n                                </li>\n                                <!-- <li>\n                                    <a href=\"#tab3\" data-toggle=\"tab\">Email</a>\n                                </li> -->\n                                <li>\n                                    <a href=\"#tab3\" data-toggle=\"tab\" class=\"btn btn-simple\" (click)=\"save2directory()\">Finish</a>\n                                </li>\n                            </ul>\n                            <div class=\"tab-content\">\n                                <div class=\"tab-pane \" id=\"tab1\">\n                                    <h3 class=\"text-center\" style=\"margin-top: 0px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 10px;\">\n                                      <small>  Please input correct information.</small></h3>\n                                    <div class=\"row\">\n                                        <div class=\"col-md-5 col-md-offset-1\">\n                                            <div class=\"form-group\">\n                                                <label class=\"control-label\">\n                                                    Role\n                                                </label>\n                                                <input class=\"form-control\" type=\"text\" name=\"company_role\" placeholder=\"ex: Project Manager\"[(ngModel)]=\"company_role\" />\n                                            </div>\n                                        </div>\n                                        <div class=\"col-md-5\">\n                                            <div class=\"form-group\">\n                                                <label class=\"control-label\">\n                                                    Company\n                                                </label>\n                                                <input class=\"form-control\" type=\"text\" name=\"company_name\" [(ngModel)]=\"company_name\" required=\"true\" placeholder=\"ex: Southland\" />\n                                            </div>\n                                        </div>\n                                    </div>\n                                    <!-- <div class=\"row\">\n                                        <div class=\"col-md-10 col-md-offset-1\">\n                                            <div class=\"form-group\">\n                                                <label class=\"control-label\">\n                                                    Email\n                                                    <span class=\"star\">*</span>\n                                                </label>\n                                                <input class=\"form-control\" type=\"text\" name=\"email\" email=\"true\" placeholder=\"ex: hello@team.com\" />\n                                            </div>\n                                        </div>\n                                    </div> -->\n                                    <div class=\"row\">\n                                        <div class=\"col-md-5 col-md-offset-1\">\n                                            <div class=\"form-group\">\n                                                <label class=\"control-label\">Contact: Mobile\n                                                    <span class=\"star\">*</span>\n                                                </label>\n                                                <input class=\"form-control\" type=\"tel\" name=\"company_mobile\" [(ngModel)]=\"company_mobile\" placeholder=\"ex: 249999\" />\n                                            </div>\n                                        </div>\n                                        <div class=\"col-md-5\">\n                                            <div class=\"form-group\">\n                                                <label class=\"control-label\">\n                                                    Code\n                                                </label>\n                                                <input class=\"form-control\" type=\"tel\" name=\"company_contact_code\" [(ngModel)]=\"company_contact_code\" placeholder=\"ex: 06\" />\n                                            </div>\n                                        </div>\n                                    </div>\n\n                                    <div class=\"row\">\n                                        <div class=\"col-md-5 col-md-offset-1\">\n                                            <div class=\"form-group\">\n                                                <label class=\"control-label\">Contact: Telephone\n                                                    <span class=\"star\">*</span>\n                                                </label>\n                                                <input class=\"form-control\" type=\"company_tel\" [(ngModel)]=\"company_tel\" name=\"role\" required=\"true\" required placeholder=\"ex:  072 8988 898\" />\n                                            </div>\n                                        </div>\n\n                                        <div class=\"col-md-5 \">\n                                            <div class=\"form-group\">\n                                                <label class=\"control-label\">\n                                                    Contact Name\n                                                </label>\n                                                <input class=\"form-control\" type=\"text\" name=\"company_user_company\" required=\"true\" placeholder=\"ex: Project Manager\"[(ngModel)]=\"company_user_company\" />\n                                            </div>\n                                        </div>\n\n\n                                    </div>\n                        \n\n                                </div>\n                                <div class=\"tab-pane\" id=\"tab2\">\n                                    <h5 class=\"text-center\">Please give us more details about your platform.</h5>\n                                    <Div class=\"row\">\n                                        <div class=\"col-md-8 col-md-offset-2\">\n                                            <div class=\"form-group\">\n                                                <label class=\"control-label\">\n                                                    Physical Address\n                                                </label>\n                                                <input class=\"form-control\" type=\"text\" name=\"company_address\" [(ngModel)]=\"company_address\" required placeholder=\"ex:  7 Woodgate, Mt Mouris\" />\n                                            </div>\n                                        </div>\n                                    </Div>\n                                   <div class=\"row\">\n                                        <div class=\"col-md-8 col-md-offset-2\">\n                                            <div class=\"form-group\">\n                                                <label class=\"control-label\">\n                                                    Email\n                                                    <span class=\"star\">*</span>\n                                                </label>\n                                                <input class=\"form-control\" type=\"text\" name=\"user_email\" [(ngModel)]=\"user_email\" email=\"true\" placeholder=\"ex: hello@team.com\" />\n                                            </div>\n                                        </div>\n                                    </div>\n                                    <div class=\"row\">\n                                        <div class=\"col-md-5 col-md-offset-2\">\n                                            <div class=\"form-group\">\n                                                <label class=\"control-label\">\n                                                    Town / City\n                                                </label>\n                                                <input class=\"form-control\" type=\"text\" name=\"city\" required placeholder=\"ex:  Harare\" />\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div>\n                                <!-- <div class=\"tab-pane\" id=\"tab3\">\n\n                                    <h5 class=\"text-center\">Add the recipient </h5>\n                                    <div class=\"row\">\n                                        <div class=\"col-md-10 col-md-offset-1\">\n                                            <div class=\"form-group\">\n                                                <label class=\"control-label\">To\n                                                    <span class=\"star\">*</span>\n                                                </label>\n                                                <input class=\"form-control\" type=\"tel\" name=\"fax\" placeholder=\"email: tben@gmail.com\" />\n                                            </div>\n                                        </div>\n                                    </div>\n                                    <div class=\"row\">\n                                        <div class=\"col-md-10 col-md-offset-1\">\n                                            <div class=\"form-group\">\n                                                <label class=\"control-label\">Message\n                                                    <span class=\"star\">*</span>\n                                                </label>\n                                                <textarea class=\"form-control\" type=\"text\" name=\"fax\" value=\"Connection request for the project\" placeholder=\"My message....\"></textarea>\n                                            </div>\n                                        </div>\n                                    </div>\n                                </div> -->\n                                <div class=\"tab-pane\" id=\"tab3\">\n                                    <h2 class=\"text-center text-space\">Yuhuuu!\n                                        <br>\n                                        <small> Click on \"\n                                            <b>Finish</b>\" to join our community</small>\n                                    </h2>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"card-footer\">\n                            <button type=\"button\" class=\"btn btn-default btn-fill btn-wd btn-back pull-left\">Back</button>\n                            <button type=\"button\" class=\"btn btn-info btn-fill btn-wd btn-next pull-right\">Next</button>\n                            <button type=\"button\" class=\"btn btn-info btn-fill btn-wd btn-finish pull-right\" (click)=\"onFinishWizard()\" (click)=\"saveItem()\">Finish</button>\n                            <div class=\"clearfix\"></div>\n                        </div>\n                    </form>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n"
 
 /***/ }),
 
@@ -9535,6 +9562,7 @@ var CompanyWizardComponent = (function () {
         this.router = router;
         this.location = location;
         this.db = db;
+        this.items = db.collection('companydirectory', function (ref) { return ref.orderBy('company_name'); }).valueChanges();
     }
     CompanyWizardComponent.prototype.readURL = function (input) {
         if (input.files && input.files[0]) {
@@ -9545,6 +9573,7 @@ var CompanyWizardComponent = (function () {
             reader.readAsDataURL(input.files[0]);
         }
     };
+    // constructor(private router: Router, public location: Location, private db: AngularFirestore) {}
     CompanyWizardComponent.prototype.onFinishWizard = function () {
         var _this = this;
         // here you can do something, sent the form to server via ajax and show a success message with swal
@@ -9553,38 +9582,42 @@ var CompanyWizardComponent = (function () {
             _this.router.navigateByUrl('projects');
         });
     };
-    CompanyWizardComponent.prototype.saveItem = function () {
+    CompanyWizardComponent.prototype.save2directory = function () {
         // console.log('dimond');
         this.db.collection('companydirectory').add({
             'company_role': this.company_role,
             'company_name': this.company_name,
             'company_address': this.company_address,
-            'company_contact': this.company_contact,
+            'company_user_contact': this.company_user_contact,
             'company_tel': this.company_tel,
+            'company_contact_code': this.company_contact_code,
             'company_mobile': this.company_mobile,
-            'company_email': this.company_email,
+            'user_email': this.user_email,
+            'city': this.city
         });
-        this.company_email = '';
+        this.user_email = '';
         this.company_mobile = '';
+        this.company_contact_code = '';
         this.company_tel = '';
-        this.company_contact = '';
+        this.company_user_contact = '';
         this.company_address = '';
+        this.city = 'city';
         this.company_name = '';
         this.company_role = '';
     };
     CompanyWizardComponent.prototype.ngOnInit = function () {
         var $validator = $('#wizardForm').validate({
             rules: {
-                email: {
+                user_email: {
                     required: true,
                     email: true,
                     minlength: 5
                 },
-                role: {
+                company_role: {
                     required: true,
                     minlength: 4
                 },
-                company: {
+                company_name: {
                     required: true,
                     minlength: 5
                 },
@@ -9592,14 +9625,14 @@ var CompanyWizardComponent = (function () {
                     required: true,
                     minlength: 8
                 },
-                code: {
+                company_contact_code: {
                     required: true,
                     number: true
                 },
-                fax: {
+                company_mobile: {
                     number: true
                 },
-                tel: {
+                company_tel: {
                     number: true
                 },
                 website: {
@@ -9611,7 +9644,7 @@ var CompanyWizardComponent = (function () {
                     required: false,
                     minlength: 4
                 },
-                cities: {
+                city: {
                     required: true
                 },
                 price: {
@@ -9727,6 +9760,107 @@ DirectoryWizardComponent = __decorate([
 ], DirectoryWizardComponent);
 
 //# sourceMappingURL=directory-wizard.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/comps/colorspages/invite-option/invite-option.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/comps/colorspages/invite-option/invite-option.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"card-content col-md-12\">\n  <!-- <div class=\"nav-tabs-navigation\">\n    <div class=\"nav-tabs-wrapper\">\n      <ul id=\"tabs\" class=\"nav nav-tabs\" data-tabs=\"tabs\">\n        <li class=\"active\">\n          <a href=\"#home\" data-toggle=\"tab\">Home</a>\n        </li>\n        <li>\n          <a href=\"#profile\" data-toggle=\"tab\">Profile</a>\n        </li>\n        <li>\n          <a href=\"#messages\" data-toggle=\"tab\">Messages</a>\n        </li>\n      </ul>\n    </div>\n  </div> -->\n  <div class=\"card\">\n    <div class=\"card-content\">\n      <p>Larger, yet dramatically thinner. More powerful, but remarkably power efficient. With a smooth metal surface that seamlessly\n        meets the new Retina HD display.</p>\n        <div class=\"row\">\n          <div class=\"button\">\n            <a type=\"button\" class=\"btn\" (click)=\"showSwal('warning-message-and-confirmation')\">invite</a>\n          </div>\n          <div class=\"button\">\n            <a type=\"button\" class=\"btn\" (click)=\"showSwal('email')\">invite 2</a>\n          </div>\n        </div>\n    </div>\n  </div>\n</div>"
+
+/***/ }),
+
+/***/ "./src/app/comps/colorspages/invite-option/invite-option.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InviteOptionComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/@angular/core.es5.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var InviteOptionComponent = (function () {
+    function InviteOptionComponent() {
+    }
+    InviteOptionComponent.prototype.ngOnInit = function () {
+    };
+    InviteOptionComponent.prototype.showSwal = function (type) {
+        if (type == 'basic') {
+            swal({
+                title: "Here's a message!",
+                buttonsStyling: false,
+                confirmButtonClass: "btn btn-success"
+            });
+        }
+        else if (type == 'title-and-text') {
+            swal({
+                title: "Here's a message!",
+                text: "It's pretty, isn't it?",
+                buttonsStyling: false,
+                confirmButtonClass: "btn btn-info"
+            });
+        }
+        else if (type == 'warning-message-and-confirmation') {
+            swal({
+                title: 'invite through',
+                text: "You won't be able to revert this!",
+                type: 'info',
+                showCancelButton: false,
+                confirmButtonClass: 'btn btn-success',
+                confirmButton2Class: 'btn btn-success',
+                cancelButtonClass: 'btn btn-info',
+                confirmButtonText: 'Yes, via email',
+                confirmButton2Text: 'Via Colours link',
+                buttonsStyling: true
+            });
+            // .then(function () {
+            //   swal({
+            //     title: 'Deleted!',
+            //     text: 'Your file has been deleted.',
+            //     type: 'success',
+            //     confirmButtonClass: "btn btn-success",
+            //     buttonsStyling: false
+            //   })
+            // })
+        }
+        else if (type == 'email') {
+            swal({
+                title: 'Invitation to project',
+                text: 'Invite by',
+                buttonsStyling: true,
+                confirmButtonClass: "btn btn-success",
+                html: '<div><button routerLink="/invite-options">via Colours</button></div>' +
+                    '<div><button type="button" routerLink="/dashboard">via email</button><div> ' +
+                    'and other HTML tags'
+            });
+        }
+    };
+    return InviteOptionComponent;
+}());
+InviteOptionComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
+        selector: 'app-invite-option',
+        template: __webpack_require__("./src/app/comps/colorspages/invite-option/invite-option.component.html"),
+        styles: [__webpack_require__("./src/app/comps/colorspages/invite-option/invite-option.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], InviteOptionComponent);
+
+//# sourceMappingURL=invite-option.component.js.map
 
 /***/ }),
 
@@ -10610,7 +10744,7 @@ module.exports = ""
 /***/ "./src/app/comps/colorspages/projects/setup/project-cost-summary/project-cost-summary.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card card-plain col-md-12\" style=\" padding-left: 0px; padding-right: 0px\">\n  <button type=\"button\" class=\"btn btn-info btn-simple\" data-toggle=\"modal\" data-target=\"#myModal\">Add Company to Directory</button>\n  <table class=\"table\">\n    <thead>\n      <tr>\n        <th>Role</th>\n        <th>Company</th>\n        <th>Address</th>\n        <th>Contact Name</th>\n        <th>Tel/Fax</th>\n        <th>Mobile</th>\n        <th>Email Address</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n<td style=\" padding-left: 0px; padding-right: 0px\">\n          <textarea class=\"form-control setp-control-xs\" name=\"\" id=\"\" cols=\"30\" rows=\"1\" placeholder=\"Principal\" style=\"padding-left: 5px; padding-right: 5px\"></textarea>\n        </td>\n        <td style=\" padding-left: 0px; padding-right: 0px\">\n          <textarea class=\"form-control setp-control-xs\" name=\"\" id=\"\" cols=\"30\" rows=\"1\" placeholder=\"Southland\" style=\"padding-left: 5px; padding-right: 5px\"></textarea>\n        </td>\n        <td style=\"padding-top:1.em; padding-left: 0px; padding-right: 0px\">\n          <textarea class=\"form-control setp-control\" name=\"\" id=\"\" cols=\"50\" rows=\"1\" placeholder=\"1 First Street\" style=\"padding-left: 5px; padding-right: 5px\"></textarea>\n        </td>\n        <td style=\" padding-left: 0px; padding-right: 0px\">\n          <textarea class=\"form-control setp-control\" name=\"\" id=\"\" cols=\"30\" rows=\"1\" placeholder=\"Simon Moyo\" style=\"padding-left: 5px; padding-right: 5px\"></textarea>\n        </td>\n        <td style=\" padding-left: 0px; padding-right: 0px\">\n          <textarea class=\"form-control setp-control-txt\" name=\"\" id=\"\" cols=\"30\" rows=\"1\" placeholder=\"042585255\" style=\"padding-left: 5px; padding-right: 5px\"></textarea>\n        </td>\n        <td style=\" padding-left: 0px; padding-right: 0px\">\n          <textarea class=\"form-control setp-control-txt\" name=\"\" id=\"\" cols=\"30\" rows=\"1\" placeholder=\"0785245225\" style=\"padding-left: 5px; padding-right: 5px\"></textarea>\n        </td>\n        <td style=\" padding-left: 0px; padding-right: 1px\">\n          <textarea class=\"form-control setp-control\" name=\"\" id=\"\" cols=\"30\" rows=\"1\" placeholder=\"simon@mail.com\" style=\"padding-left: 5px; padding-right: 0px\"></textarea>\n        </td>\n      </tr>\n    </tbody>\n  </table>\n  <br>\n  <div>\n    <button type=\"button\" class=\"btn btn-primary btn-simple pull-right\" ng-click=\"addRegister(comp)\">Save</button>\n  </div>\n</div>"
+module.exports = "<div class=\"card\">\n  <!-- <app-cost-table></app-cost-table> -->\n  <app-section-one></app-section-one>\n  <app-section-two></app-section-two>\n  <app-section-three></app-section-three>\n  <app-section-four></app-section-four>\n  <app-section-five></app-section-five>\n  <app-section-six></app-section-six>\n</div>\n<!-- /////////////    END OF THE Calendar   \\\\\\\\\\\\\\\\\\\\\\\\\\ -->\n\n\n\n<!-- <div class=\"card card-plain col-md-12\" style=\" padding-left: 0px; padding-right: 0px\">\n  <button type=\"button\" class=\"btn btn-info btn-simple\" data-toggle=\"modal\" data-target=\"#myModal\">Add Company to Directory</button>\n  <table class=\"table\">\n    <thead>\n      <tr>\n        <th>Role</th>\n        <th>Company</th>\n        <th>Address</th>\n        <th>Contact Name</th>\n        <th>Tel/Fax</th>\n        <th>Mobile</th>\n        <th>Email Address</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n       <td style=\" padding-left: 0px; padding-right: 0px\">\n          <textarea class=\"form-control setp-control-xs\" name=\"\" id=\"\" cols=\"30\" rows=\"1\" placeholder=\"Principal\" style=\"padding-left: 5px; padding-right: 5px\"></textarea>\n        </td>\n        <td style=\" padding-left: 0px; padding-right: 0px\">\n          <textarea class=\"form-control setp-control-xs\" name=\"\" id=\"\" cols=\"30\" rows=\"1\" placeholder=\"Southland\" style=\"padding-left: 5px; padding-right: 5px\"></textarea>\n        </td>\n        <td style=\"padding-top:1.em; padding-left: 0px; padding-right: 0px\">\n          <textarea class=\"form-control setp-control\" name=\"\" id=\"\" cols=\"50\" rows=\"1\" placeholder=\"1 First Street\" style=\"padding-left: 5px; padding-right: 5px\"></textarea>\n        </td>\n        <td style=\" padding-left: 0px; padding-right: 0px\">\n          <textarea class=\"form-control setp-control\" name=\"\" id=\"\" cols=\"30\" rows=\"1\" placeholder=\"Simon Moyo\" style=\"padding-left: 5px; padding-right: 5px\"></textarea>\n        </td>\n        <td style=\" padding-left: 0px; padding-right: 0px\">\n          <textarea class=\"form-control setp-control-txt\" name=\"\" id=\"\" cols=\"30\" rows=\"1\" placeholder=\"042585255\" style=\"padding-left: 5px; padding-right: 5px\"></textarea>\n        </td>\n        <td style=\" padding-left: 0px; padding-right: 0px\">\n          <textarea class=\"form-control setp-control-txt\" name=\"\" id=\"\" cols=\"30\" rows=\"1\" placeholder=\"0785245225\" style=\"padding-left: 5px; padding-right: 5px\"></textarea>\n        </td>\n        <td style=\" padding-left: 0px; padding-right: 1px\">\n          <textarea class=\"form-control setp-control\" name=\"\" id=\"\" cols=\"30\" rows=\"1\" placeholder=\"simon@mail.com\" style=\"padding-left: 5px; padding-right: 0px\"></textarea>\n        </td>\n      </tr>\n    </tbody>\n  </table>\n  <br>\n  <div>\n    <button type=\"button\" class=\"btn btn-primary btn-simple pull-right\" ng-click=\"addRegister(comp)\">Save</button>\n  </div>\n</div> -->"
 
 /***/ }),
 
@@ -10700,6 +10834,396 @@ ProjectDepartmentComponent = __decorate([
 
 /***/ }),
 
+/***/ "./src/app/comps/colorspages/projects/setup/project-description/descsection-five/descsection-five.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "\n<div class=\"container-fluid\">\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n            <div class=\"card-content\">\n                <table class=\"table table-bordered table-striped\">\n                    <!-- <thead></thead>\n                    <div class=\"row\">\n                        <div class=\"col-lg-4 col-md-3\">\n                            <div class=\"card-title\">\n                                <h5>Section</h5>\n                            </div>\n                        </div>\n                        <div class=\"col-lg-6 col-md-5\">\n                            <div class=\"form-group\">\n                                <select name=\"cities\" class=\"form-control\">\n                                    <option selected=\"\" value=\"5.0\">5</option>\n                                    <option value=\"1.0\">1</option>\n                                    <option value=\"2.0\">2</option>\n                                    <option value=\"3.0\">3</option>\n                                    <option value=\"4.0\">4</option>\n                                    <option value=\"5.0\">5</option>\n                                    <option value=\"6.0\">6</option>\n                                </select>\n                            </div>\n                        </div>\n                    </div> -->\n                    <tbody>\n                        <tr *ngFor=\"let item of items | async\">\n                            <!-- <td>{{$index+1}}</td> -->\n                            <td style=\"width: 129px;\">{{item.section5}}</td>\n                            <td style=\"width: 317px;\">{{item.section5_name}}</td>\n                            <td style=\"width: 84px;\">{{item.section5_unit}}</td>\n                            <td style=\"width: 145px;\">{{item.section5_quantity}}</td>\n                            <td style=\"width: 137px;\">{{item.section5_amount}}</td>\n                        </tr>\n                        <!-- <tr>\n                            <td><input [(ngModel)]=\"section5\" name=\"section5\" class=\"form-control costsum-xs \"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section5_name\" name=\"section5_name\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section5_unit\" name=\"section5_unit\" class=\"form-control costsum-xs\"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section5_quantity\" name=\"section5_quantity\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section5_amount\" name=\"section5_amount\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input type=\"submit\" (click)=\"saveItem5()\"> </td>\n                        </tr> -->\n                    </tbody>\n                </table>\n            </div>\n        </div>\n    </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/comps/colorspages/projects/setup/project-description/descsection-five/descsection-five.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DescSectionFiveComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__("./node_modules/@angular/common/@angular/common.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angularfire2_firestore__ = __webpack_require__("./node_modules/angularfire2/firestore/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var DescSectionFiveComponent = (function () {
+    function DescSectionFiveComponent(location, db) {
+        this.location = location;
+        this.db = db;
+        this.items = db.collection('sectiontest5', function (ref) { return ref.orderBy('section5_name'); }).valueChanges();
+    }
+    DescSectionFiveComponent.prototype.saveItem5 = function () {
+        console.log('saving');
+        this.db.collection('sectiontest5').add({
+            'section5': this.section5,
+            'section5_name': this.section5_name,
+            'section5_unit': this.section5_unit,
+            'section5_quantity': this.section5_quantity,
+            'section5_amount': this.section5_amount
+        });
+        this.section5_amount = '';
+        this.section5_quantity = '';
+        this.section5_unit = '';
+        this.section5_name = '';
+        this.section5 = '';
+    };
+    DescSectionFiveComponent.prototype.ngOnInit = function () {
+    };
+    return DescSectionFiveComponent;
+}());
+DescSectionFiveComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
+        selector: 'app-descsection-five',
+        template: __webpack_require__("./src/app/comps/colorspages/projects/setup/project-description/descsection-five/descsection-five.component.html")
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_common__["f" /* Location */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_common__["f" /* Location */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2_angularfire2_firestore__["a" /* AngularFirestore */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_angularfire2_firestore__["a" /* AngularFirestore */]) === "function" && _b || Object])
+], DescSectionFiveComponent);
+
+var _a, _b;
+//# sourceMappingURL=descsection-five.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/comps/colorspages/projects/setup/project-description/descsection-four/descsection-four.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "\n<div class=\"container-fluid\">\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n            <div class=\"card-content\">\n                <table class=\"table table-bordered table-striped\">\n                    <!-- <thead></thead>\n                    <div class=\"row\">\n                        <div class=\"col-lg-4 col-md-3\">\n                            <div class=\"card-title\">\n                                <h5>Section</h5>\n                            </div>\n                        </div>\n                        <div class=\"col-lg-6 col-md-5\">\n                            <div class=\"form-group\">\n                                <select name=\"cities\" class=\"form-control\">\n                                    <option selected=\"\" value=\"4.0\">4</option>\n                                    <option value=\"1.0\">1</option>\n                                    <option value=\"2.0\">2</option>\n                                    <option value=\"3.0\">3</option>\n                                    <option value=\"4.0\">4</option>\n                                    <option value=\"5.0\">5</option>\n                                    <option value=\"6.0\">6</option>\n                                </select>\n                            </div>\n                        </div>\n                    </div> -->\n                    <tbody>\n                        <tr *ngFor=\"let item of items | async\">\n                            <!-- <td>{{$index+1}}</td> -->\n                            <td style=\"width: 129px;\">{{item.section4}}</td>\n                            <td style=\"width: 317px;\">{{item.section4_name}}</td>\n                            <td style=\"width: 84px;\">{{item.section4_unit}}</td>\n                            <td style=\"width: 145px;\">{{item.section4_quantity}}</td>\n                            <td style=\"width: 137px;\">{{item.section4_amount}}</td>\n                        </tr>\n                        <!-- <tr>\n                            <td><input [(ngModel)]=\"section4\" name=\"section4\" class=\"form-control costsum-xs \"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section4_name\" name=\"section4_name\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section4_unit\" name=\"section4_unit\" class=\"form-control costsum-xs\"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section4_quantity\" name=\"section4_quantity\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section4_amount\" name=\"section4_amount\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input type=\"submit\" (click)=\"saveItem4()\"> </td>\n                        </tr> -->\n                    </tbody>\n                </table>\n            </div>\n        </div>\n    </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/comps/colorspages/projects/setup/project-description/descsection-four/descsection-four.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DescSectionFourComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__("./node_modules/@angular/common/@angular/common.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angularfire2_firestore__ = __webpack_require__("./node_modules/angularfire2/firestore/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var DescSectionFourComponent = (function () {
+    function DescSectionFourComponent(location, db) {
+        this.location = location;
+        this.db = db;
+        this.items = db.collection('sectiontest4', function (ref) { return ref.orderBy('section4_name'); }).valueChanges();
+    }
+    DescSectionFourComponent.prototype.saveItem4 = function () {
+        console.log('saving');
+        this.db.collection('sectiontest4').add({
+            'section4': this.section4,
+            'section4_name': this.section4_name,
+            'section4_unit': this.section4_unit,
+            'section4_quantity': this.section4_quantity,
+            'section4_amount': this.section4_amount
+        });
+        this.section4_amount = '';
+        this.section4_quantity = '';
+        this.section4_unit = '';
+        this.section4_name = '';
+        this.section4 = '';
+    };
+    DescSectionFourComponent.prototype.ngOnInit = function () {
+    };
+    return DescSectionFourComponent;
+}());
+DescSectionFourComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
+        selector: 'app-descsection-four',
+        template: __webpack_require__("./src/app/comps/colorspages/projects/setup/project-description/descsection-four/descsection-four.component.html")
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_common__["f" /* Location */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_common__["f" /* Location */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2_angularfire2_firestore__["a" /* AngularFirestore */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_angularfire2_firestore__["a" /* AngularFirestore */]) === "function" && _b || Object])
+], DescSectionFourComponent);
+
+var _a, _b;
+//# sourceMappingURL=descsection-four.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/comps/colorspages/projects/setup/project-description/descsection-one/descsection-one.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "\n<div class=\"container-fluid\">\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n            <!-- <div class=\"card\"> -->\n                <div class=\"header\">\n                    <!-- <h4 class=\"title\">Project Cost Summary</h4> -->\n                    <!-- <p class=\"category\">Here is a subtitle for this table</p> -->\n                </div>\n                <hr>\n                <div class=\"card-content\">\n                    <table class=\"table table-bordered table-striped\">\n                    <thead>\n                        <tr>\n                            <!-- <th></th> -->\n                            <th class=\"desc-size-1\">Section</th>\n                            <th class=\"desc-size-2\">Name</th>\n                            <th class=\"desc-size-3\">Unit</th>\n                            <th class=\"desc-size-4\">Quantity</th>\n                            <th class=\"desc-size-5\">Amount</th>\n                        </tr>\n                    </thead>\n                    <tr></tr>\n                    <tbody>\n                        <tr *ngFor=\"let item of items | async\">\n                            <!-- <td>{{$index+1}}</td> -->\n                            <td class=\"desc-size-1\">{{item.section1}}</td>\n                            <td class=\"desc-size-2\">{{item.section1_name}}</td>\n                            <td class=\"desc-size-3\">{{item.section1_unit}}</td>\n                            <td class=\"desc-size-4\">{{item.section1_quantity}}</td>\n                            <td class=\"desc-size-5\">{{item.section1_amount}}</td>\n                        </tr>\n                        <!-- <tr>\n                            <td><input [(ngModel)]=\"section1\" name=\"section1\" class=\"form-control costsum-xs \"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section1_name\" name=\"section1_name\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section1_unit\" name=\"section1_unit\" class=\"form-control costsum-xs\"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section1_quantity\" name=\"section1_quantity\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section1_amount\" name=\"section1_amount\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input type=\"submit\" (click)=\"saveItem1()\"> </td>\n                        </tr> -->\n                    </tbody>\n                </table>\n\n            </div>\n        </div>\n    </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/comps/colorspages/projects/setup/project-description/descsection-one/descsection-one.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DescSectionOneComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__("./node_modules/@angular/common/@angular/common.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angularfire2_firestore__ = __webpack_require__("./node_modules/angularfire2/firestore/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var DescSectionOneComponent = (function () {
+    function DescSectionOneComponent(location, db) {
+        this.location = location;
+        this.db = db;
+        this.items = db.collection('sectiontest1', function (ref) { return ref.orderBy('section1_name'); }).valueChanges();
+    }
+    DescSectionOneComponent.prototype.saveItem1 = function () {
+        console.log('saving');
+        this.db.collection('sectiontest1').add({
+            'section1': this.section1,
+            'section1_name': this.section1_name,
+            'section1_unit': this.section1_unit,
+            'section1_quantity': this.section1_quantity,
+            'section1_amount': this.section1_amount
+        });
+        this.section1_amount = '';
+        this.section1_quantity = '';
+        this.section1_unit = '';
+        this.section1_name = '';
+        this.section1 = '';
+    };
+    DescSectionOneComponent.prototype.ngOnInit = function () {
+    };
+    return DescSectionOneComponent;
+}());
+DescSectionOneComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
+        selector: 'app-descsection-one',
+        template: __webpack_require__("./src/app/comps/colorspages/projects/setup/project-description/descsection-one/descsection-one.component.html")
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_common__["f" /* Location */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_common__["f" /* Location */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2_angularfire2_firestore__["a" /* AngularFirestore */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_angularfire2_firestore__["a" /* AngularFirestore */]) === "function" && _b || Object])
+], DescSectionOneComponent);
+
+var _a, _b;
+//# sourceMappingURL=descsection-one.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/comps/colorspages/projects/setup/project-description/descsection-six/descsection-six.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "\n<div class=\"container-fluid\">\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n            <div class=\"card-content\">\n                <table class=\"table table-bordered table-striped\">\n                    <thead></thead>\n                    <!-- <div class=\"row\">\n                        <div class=\"col-lg-4 col-md-3\">\n                            <div class=\"card-title\">\n                                <h5>Section</h5>\n                            </div>\n                        </div>\n                        <div class=\"col-lg-6 col-md-5\">\n                            <div class=\"form-group\">\n                                <select name=\"cities\" class=\"form-control\">\n                                    <option selected=\"\"value=\"6.0\">6</option>\n                                    <option value=\"1.0\">1</option>\n                                    <option value=\"2.0\">2</option>\n                                    <option value=\"3.0\">3</option>\n                                    <option value=\"4.0\">4</option>\n                                    <option value=\"5.0\">5</option>\n                                    <option value=\"6.0\">6</option>\n                                </select>\n                            </div>\n                        </div>\n                    </div> -->\n                    <tbody>\n                        <tr *ngFor=\"let item of items | async\">\n                            <!-- <td>{{$index+1}}</td> -->\n                            <td style=\"width: 129px;\">{{item.section6}}</td>\n                            <td style=\"width: 317px;\">{{item.section6_name}}</td>\n                            <td style=\"width: 84px;\">{{item.section6_unit}}</td>\n                            <td style=\"width: 145px;\">{{item.section6_quantity}}</td>\n                            <td style=\"width: 137px;\">{{item.section6_amount}}</td>\n                        </tr>\n                        <!-- <tr>\n                            <td><input [(ngModel)]=\"section6\" name=\"section6\" class=\"form-control costsum-xs \"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section6_name\" name=\"section6_name\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section6_unit\" name=\"section6_unit\" class=\"form-control costsum-xs\"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section6_quantity\" name=\"section6_quantity\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section6_amount\" name=\"section6_amount\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input type=\"submit\" (click)=\"saveItem6()\"> </td>\n                        </tr> -->\n                    </tbody>\n                </table>\n            </div>\n        </div>\n    </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/comps/colorspages/projects/setup/project-description/descsection-six/descsection-six.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DescSectionSixComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__("./node_modules/@angular/common/@angular/common.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angularfire2_firestore__ = __webpack_require__("./node_modules/angularfire2/firestore/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var DescSectionSixComponent = (function () {
+    function DescSectionSixComponent(location, db) {
+        this.location = location;
+        this.db = db;
+        this.items = db.collection('sectiontest6', function (ref) { return ref.orderBy('section6_name'); }).valueChanges();
+    }
+    DescSectionSixComponent.prototype.saveItem6 = function () {
+        console.log('saving');
+        this.db.collection('sectiontest6').add({
+            'section6': this.section6,
+            'section6_name': this.section6_name,
+            'section6_unit': this.section6_unit,
+            'section6_quantity': this.section6_quantity,
+            'section6_amount': this.section6_amount
+        });
+        this.section6_amount = '';
+        this.section6_quantity = '';
+        this.section6_unit = '';
+        this.section6_name = '';
+        this.section6 = '';
+    };
+    DescSectionSixComponent.prototype.ngOnInit = function () {
+    };
+    return DescSectionSixComponent;
+}());
+DescSectionSixComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
+        selector: 'app-descsection-six',
+        template: __webpack_require__("./src/app/comps/colorspages/projects/setup/project-description/descsection-six/descsection-six.component.html")
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_common__["f" /* Location */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_common__["f" /* Location */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2_angularfire2_firestore__["a" /* AngularFirestore */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_angularfire2_firestore__["a" /* AngularFirestore */]) === "function" && _b || Object])
+], DescSectionSixComponent);
+
+var _a, _b;
+//# sourceMappingURL=descsection-six.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/comps/colorspages/projects/setup/project-description/descsection-three/descsection-three.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "\n<div class=\"container-fluid\">\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n            <div class=\"card-content\">\n                <table class=\"table table-bordered table-striped\">\n                    <!-- <thead>\n                    <div class=\"row\">\n                        <div class=\"col-lg-4 col-md-3\">\n                            <div class=\"card-title\">\n                                <h5>Section</h5>\n                            </div>\n                        </div>\n                        <div class=\"col-lg-6 col-md-5\">\n                            <div class=\"form-group\">\n                                <select name=\"cities\" class=\"form-control\">\n                                    <option selected=\"\" disabled=\"\"value=\"3.0\">3</option>\n                                    <option value=\"1.0\">1</option>\n                                    <option value=\"2.0\">2</option>\n                                    <option value=\"3.0\">3</option>\n                                    <option value=\"4.0\">4</option>\n                                    <option value=\"5.0\">5</option>\n                                    <option value=\"6.0\">6</option>\n                                </select>\n                            </div>\n                        </div>\n                    </div>\n                    </thead> -->\n                    <tbody>\n                        <tr *ngFor=\"let item of items | async\">\n                            <!-- <td>{{$index+1}}</td> -->\n                            <td style=\"width: 129px;\">{{item.section3}}</td>\n                            <td style=\"width: 317px;\">{{item.section3_name}}</td>\n                            <td style=\"width: 84px;\">{{item.section3_unit}}</td>\n                            <td style=\"width: 145px;\">{{item.section3_quantity}}</td>\n                            <td style=\"width: 137px;\">{{item.section3_amount}}</td>\n                        </tr>\n                        <!-- <tr>\n                            <td><input [(ngModel)]=\"section3\" name=\"section3\" class=\"form-control costsum-xs \"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section3_name\" name=\"section3_name\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section3_unit\" name=\"section3_unit\" class=\"form-control costsum-xs\"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section3_quantity\" name=\"section3_quantity\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section3_amount\" name=\"section3_amount\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input type=\"submit\" (click)=\"saveItem3()\"> </td>\n                        </tr> -->\n                    </tbody>\n                </table>\n            </div>\n        </div>\n    </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/comps/colorspages/projects/setup/project-description/descsection-three/descsection-three.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DescSectionThreeComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__("./node_modules/@angular/common/@angular/common.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angularfire2_firestore__ = __webpack_require__("./node_modules/angularfire2/firestore/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var DescSectionThreeComponent = (function () {
+    function DescSectionThreeComponent(location, db) {
+        this.location = location;
+        this.db = db;
+        this.items = db.collection('sectiontest3', function (ref) { return ref.orderBy('section3_name'); }).valueChanges();
+    }
+    DescSectionThreeComponent.prototype.saveItem3 = function () {
+        console.log('saving');
+        this.db.collection('sectiontest3').add({
+            'section3': this.section3,
+            'section3_name': this.section3_name,
+            'section3_unit': this.section3_unit,
+            'section3_quantity': this.section3_quantity,
+            'section3_amount': this.section3_amount
+        });
+        this.section3_amount = '';
+        this.section3_quantity = '';
+        this.section3_unit = '';
+        this.section3_name = '';
+        this.section3 = '';
+    };
+    DescSectionThreeComponent.prototype.ngOnInit = function () {
+    };
+    return DescSectionThreeComponent;
+}());
+DescSectionThreeComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
+        selector: 'app-descsection-three',
+        template: __webpack_require__("./src/app/comps/colorspages/projects/setup/project-description/descsection-three/descsection-three.component.html")
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_common__["f" /* Location */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_common__["f" /* Location */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2_angularfire2_firestore__["a" /* AngularFirestore */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_angularfire2_firestore__["a" /* AngularFirestore */]) === "function" && _b || Object])
+], DescSectionThreeComponent);
+
+var _a, _b;
+//# sourceMappingURL=descsection-three.component.js.map
+
+/***/ }),
+
+/***/ "./src/app/comps/colorspages/projects/setup/project-description/descsection-two/descsection-two.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "\n<div class=\"container-fluid\">\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n            <div class=\"card-content\">\n                <table class=\"table table-bordered table-striped\">\n                    <!-- <thead></thead>\n                    <div class=\"row\">\n                        <div class=\"col-lg-4 col-md-3\">\n                            <div class=\"card-title\">\n                                <h5>Section</h5>\n                            </div>\n                        </div>\n                        <div class=\"col-lg-6 col-md-5\">\n                            <div class=\"form-group\">\n                                <select name=\"cities\" class=\"form-control\">\n                                    <option selected=\"\" disabled=\"\" value=\"2.0\">2</option>\n                                    <option value=\"1.0\">1</option>\n                                    <option value=\"2.0\">2</option>\n                                    <option value=\"3.0\">3</option>\n                                    <option value=\"4.0\">4</option>\n                                    <option value=\"5.0\">5</option>\n                                    <option value=\"6.0\">6</option>\n                                </select>\n                            </div>\n                        </div>\n                    </div> -->\n                    <style>\n                        /* .desc-size-1{\n                            width: 129px;\n                            height: auto;\n                        }\n                        .desc-size-2{\n                            width: 317px;\n                            height: auto;\n                        }\n                        .desc-size-3{     \n                            width: 84px;\n                            height: auto;\n                        }\n                        .desc-size-4{\n                            width: 145px;\n                            height: auto;\n                        }\n                        .desc-size-5{\n                            width: 173px;\n                            height: auto;\n                        } */\n                    </style>\n                    <tbody>\n                        <tr *ngFor=\"let item of items | async\">\n                            <!-- <td>{{$index+1}}</td> -->\n                            <td class=\"\" style=\"width: 129px;\">{{item.section2}}</td>\n                            <td class=\"\" style=\"width: 317px;\">{{item.section2_name}}</td>\n                            <td class=\"\" style=\"width: 84px;\">{{item.section2_unit}}</td>\n                            <td class=\"\" style=\"width: 145px;\">{{item.section2_quantity}}</td>\n                            <td class=\"\" style=\"width: 137px;\">{{item.section2_amount}}</td>\n                        </tr>\n                        <!-- <tr>\n                            <td><input [(ngModel)]=\"section2\" name=\"section2\" class=\"form-control costsum-xs \"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section2_name\" name=\"section2_name\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section2_unit\" name=\"section2_unit\" class=\"form-control costsum-xs\"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section2_quantity\" name=\"section2_quantity\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input [(ngModel)]=\"section2_amount\" name=\"section2_amount\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"> </td>\n                            <td><input type=\"submit\" (click)=\"saveItem2()\"> </td>\n                        </tr> -->\n                    </tbody>\n                </table>\n            </div>\n        </div>\n    </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/comps/colorspages/projects/setup/project-description/descsection-two/descsection-two.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DescSectionTwoComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__("./node_modules/@angular/common/@angular/common.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angularfire2_firestore__ = __webpack_require__("./node_modules/angularfire2/firestore/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var DescSectionTwoComponent = (function () {
+    function DescSectionTwoComponent(location, db) {
+        this.location = location;
+        this.db = db;
+        this.items = db.collection('sectiontest2', function (ref) { return ref.orderBy('section2_name'); }).valueChanges();
+    }
+    DescSectionTwoComponent.prototype.saveItem2 = function () {
+        console.log('saving');
+        this.db.collection('sectiontest2').add({
+            'section2': this.section2,
+            'section2_name': this.section2_name,
+            'section2_unit': this.section2_unit,
+            'section2_quantity': this.section2_quantity,
+            'section2_amount': this.section2_amount
+        });
+        this.section2_amount = '';
+        this.section2_quantity = '';
+        this.section2_unit = '';
+        this.section2_name = '';
+        this.section2 = '';
+    };
+    DescSectionTwoComponent.prototype.ngOnInit = function () {
+    };
+    return DescSectionTwoComponent;
+}());
+DescSectionTwoComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
+        selector: 'app-descsection-two',
+        template: __webpack_require__("./src/app/comps/colorspages/projects/setup/project-description/descsection-two/descsection-two.component.html")
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_common__["f" /* Location */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_common__["f" /* Location */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2_angularfire2_firestore__["a" /* AngularFirestore */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_angularfire2_firestore__["a" /* AngularFirestore */]) === "function" && _b || Object])
+], DescSectionTwoComponent);
+
+var _a, _b;
+//# sourceMappingURL=descsection-two.component.js.map
+
+/***/ }),
+
 /***/ "./src/app/comps/colorspages/projects/setup/project-description/project-description.component.css":
 /***/ (function(module, exports) {
 
@@ -10710,7 +11234,7 @@ module.exports = ""
 /***/ "./src/app/comps/colorspages/projects/setup/project-description/project-description.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card card-plain col-md-12\" style=\" padding-left: 0px; padding-right: 0px\">\n\n  <h5 class=\"grid-h\">Grid options</h5>\n  <div class=\"table-responsive\">\n    <table class=\"table table-bordered table-striped\">\n      <thead>\n        <tr>\n          <th> Project Section\n            <!-- <small>Phones (&lt;576px)</small> -->\n          </th>\n          <th> Section Name\n            <!-- <small>Tablets (≥576px)</small> -->\n          </th>\n\n        </tr>\n      </thead>\n      <style>\n        .input-btn-size{\n          width: 80px;\n        }\n      </style>\n      <tbody>\n        <tr>\n          <td class=\"text-nowrap\" scope=\"row\">{{item.section1}}</td>\n          <td>{{item.section1_name}}</td> <!-- colspan=\"4\" -->\n        </tr>\n        <!-- <tr>\n          <th class=\"text-nowrap\" scope=\"row\"><input [(ngModel)]=\"section1\" name=\"section1\" class=\"form-control costsum-xs \"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"></th>\n          <td><input [(ngModel)]=\"section1_name\" name=\"section1_name\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"></td> <!- colspan=\"4\" ->\n          <td  class=\"input-btn-size\"><input type=\"submit\" (click)=\"saveItem1()\"> </td>\n        </tr> -->\n        <tr>\n          <th class=\"text-nowrap\" scope=\"row\">Section 2</th>\n          <td>Trade Preambles and Specifications</td>\n        </tr>\n        <!-- <tr>\n          <th class=\"text-nowrap\" scope=\"row\"><input [(ngModel)]=\"section2\" name=\"section2\" class=\"form-control costsum-xs \"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"></th>\n          <td><input [(ngModel)]=\"section2_name\" name=\"section2_name\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"></td> <!- colspan=\"4\" ->\n          <td  class=\"input-btn-size\"><input type=\"submit\" (click)=\"saveItem2()\"> </td>\n        </tr> -->\n        <tr>\n          <th class=\"text-nowrap\" scope=\"row\"> Section 3</th>\n          <td>Preliminaries and Controls<code></code></td>\n        </tr>\n        <!-- <tr>\n          <th class=\"text-nowrap\" scope=\"row\"><input [(ngModel)]=\"section3\" name=\"section3\" class=\"form-control costsum-xs \"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"></th>\n          <td><input [(ngModel)]=\"section3_name\" name=\"section3_name\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"></td> <!- colspan=\"4\" ->\n          <td  class=\"input-btn-size\"><input type=\"submit\" (click)=\"saveItem3()\"> </td>\n        </tr> -->\n        <tr>\n          <th class=\"text-nowrap\" scope=\"row\">Section 4</th>\n          <td>Office Building</td> <!-- colspan=\"5\" -->\n        </tr>\n        <!-- <tr>\n          <th class=\"text-nowrap\" scope=\"row\"><input [(ngModel)]=\"section4\" name=\"section4\" class=\"form-control costsum-xs \"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"></th>\n          <td><input [(ngModel)]=\"section4_name\" name=\"section4_name\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"></td> <!- colspan=\"4\" ->\n          <td  class=\"input-btn-size\"><input type=\"submit\" (click)=\"saveItem4()\"> </td>\n        </tr> -->\n        <tr> \n          <th class=\"text-nowrap\" scope=\"row\">Section 5</th>\n          <td>Civil Engineering and Works</td> <!-- colspan=\"5\" -->\n        </tr>\n        <!-- <tr>\n          <th class=\"text-nowrap\" scope=\"row\"><input [(ngModel)]=\"section5\" name=\"section5\" class=\"form-control costsum-xs \"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"></th>\n          <td><input [(ngModel)]=\"section5_name\" name=\"section5_name\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"></td> <!- colspan=\"4\" ->\n          <td  class=\"input-btn-size\"><input type=\"submit\" (click)=\"saveItem5()\"> </td>\n        </tr> -->\n        <tr>\n          <th class=\"text-nowrap\" scope=\"row\">Section 6</th>\n          <td>Prime Cost and Provisional Sums</td>  <!-- colspan=\"5\" -->\n        </tr>\n        <!-- <tr>\n          <th class=\"text-nowrap\" scope=\"row\"><input [(ngModel)]=\"section6\" name=\"section6\" class=\"form-control costsum-xs \"style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"></th>\n          <td><input [(ngModel)]=\"section6_name\" name=\"section6_name\" class=\"form-control costsum-xs\" style=\"padding-left: 5px; padding-right: 5px; padding-top: 0px;padding-bottom: 0px;\"></td> <!- colspan=\"4\" ->\n          <td  class=\"input-btn-size\"><input type=\"submit\" (click)=\"saveItem6()\"> </td>\n        </tr> -->\n      </tbody>\n    </table>\n  </div>\n\n  <div>\n    <button type=\"button\" class=\"btn btn-primary btn-simple pull-right\" ng-click=\"addRegister(comp)\">Save</button>\n  </div>\n</div>\n\n<!-- <button type=\"button\" class=\"btn btn-info btn-simple\" data-toggle=\"modal\" data-target=\"#myModal\">Add Company Description</button>\n  <table class=\"table\">\n    <thead>\n      <tr>\n        <th>Project</th>\n        <th>Execution</th>\n        <th>Project</th>\n        <th>Client</th>\n        <th>Referee</th>\n        <th>Services'Scope</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td style=\" padding-left: 0px; padding-right: 0px\">\n          <textarea class=\"form-control setp-control\" name=\"\" id=\"\" cols=\"30\" rows=\"1\" placeholder=\"Name\" style=\"padding-left: 5px; padding-right: 5px\"></textarea>\n        </td><!- setp-control-txt or setp-control-xs or setp-control choose textarea size->\n        <td style=\" padding-left: 0px; padding-right: 0px\">\n          <textarea class=\"form-control setp-control\" name=\"\" id=\"\" cols=\"30\" rows=\"1\" placeholder=\"Period\" style=\"padding-left: 5px; padding-right: 5px\"></textarea>\n        </td>\n        <td style=\"padding-top:1.em; padding-left: 0px; padding-right: 0px\">\n          <textarea class=\"form-control setp-control\" name=\"\" id=\"\" cols=\"50\" rows=\"1\" placeholder=\"Value\" style=\"padding-left: 5px; padding-right: 5px\"></textarea>\n        </td>\n        <td style=\" padding-left: 0px; padding-right: 0px\">\n          <textarea class=\"form-control setp-control\" name=\"\" id=\"\" cols=\"30\" rows=\"1\" placeholder=\"Name\" style=\"padding-left: 5px; padding-right: 5px\"></textarea>\n        </td>\n        <td style=\" padding-left: 0px; padding-right: 0px\">\n          <textarea class=\"form-control setp-control\" name=\"\" id=\"\" cols=\"80\" rows=\"1\" placeholder=\"Referee & Contact Details\" style=\"padding-left: 5px; padding-right: 5px\"></textarea>\n        </td>\n        <td style=\" padding-left: 0px; padding-right: 0px\">\n          <textarea class=\"form-control setp-control\" name=\"\" id=\"\" cols=\"30\" rows=\"1\" placeholder=\"Scope of services\" style=\"padding-left: 5px; padding-right: 5px\"></textarea>\n        </td>\n        <!- <td style=\" padding-left: 0px; padding-right: 1px\">\n          <textarea class=\"form-control setp-control\" name=\"\" id=\"\" cols=\"30\" rows=\"1\" placeholder=\"simon@mail.com\" style=\"padding-left: 5px; padding-right: 0px\"></textarea>\n        </td> ->\n      </tr>\n    </tbody>\n  </table>\n  <br> -->"
+module.exports = "      <div class=\"card\">\n        <!-- <app-cost-table></app-cost-table> -->\n        <app-descsection-one></app-descsection-one>\n        <app-descsection-two></app-descsection-two>\n        <app-descsection-three></app-descsection-three>\n        <app-descsection-four></app-descsection-four>\n        <app-descsection-five></app-descsection-five>\n        <app-descsection-six></app-descsection-six>\n      </div>\n"
 
 /***/ }),
 
@@ -10827,7 +11351,7 @@ module.exports = ""
 /***/ "./src/app/comps/colorspages/projects/setup/project-directory/project-directory.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card card-plain col-md-12\" style=\" padding-left: 0px; padding-right: 0px\">\n  <button type=\"button\" class=\"btn btn-info btn-simple\" data-toggle=\"modal\" data-target=\"#myModal\">Company Directory</button>\n<table class=\"table table-bordered table-striped\">\n    <thead>\n      <tr>\n        <th>Role</th>\n        <th>Company</th>\n        <th>Address</th>\n        <th>Contact Name</th>\n        <th>Tel</th>\n        <th>Mobile</th>\n        <th>Email Address</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td style=\" padding-left: 0px; padding-right: 0px\">\n          <textarea class=\"form-control setp-control-xs\" name=\"\" id=\"\" cols=\"30\" rows=\"1\" placeholder=\"Principal\" style=\"padding-left: 5px; padding-right: 5px\"></textarea>\n        </td>\n        <td style=\" padding-left: 0px; padding-right: 0px\">\n          <textarea class=\"form-control setp-control-xs\" name=\"\" id=\"\" cols=\"30\" rows=\"1\" placeholder=\"Southland\" style=\"padding-left: 5px; padding-right: 5px\"></textarea>\n        </td>\n        <td style=\"padding-top:1.em; padding-left: 0px; padding-right: 0px\">\n          <textarea class=\"form-control setp-control\" name=\"\" id=\"\" cols=\"50\" rows=\"1\" placeholder=\"1 First Street\" style=\"padding-left: 5px; padding-right: 5px\"></textarea>\n        </td>\n        <td style=\" padding-left: 0px; padding-right: 0px\">\n          <textarea class=\"form-control setp-control\" name=\"\" id=\"\" cols=\"30\" rows=\"1\" placeholder=\"Simon Moyo\" style=\"padding-left: 5px; padding-right: 5px\"></textarea>\n        </td>\n        <td style=\" padding-left: 0px; padding-right: 0px\">\n          <textarea class=\"form-control setp-control-txt\" name=\"\" id=\"\" cols=\"30\" rows=\"1\" placeholder=\"042585255\" style=\"padding-left: 5px; padding-right: 5px\"></textarea>\n        </td>\n        <td style=\" padding-left: 0px; padding-right: 0px\">\n          <textarea class=\"form-control setp-control-txt\" name=\"\" id=\"\" cols=\"30\" rows=\"1\" placeholder=\"0785245225\" style=\"padding-left: 5px; padding-right: 5px\"></textarea>\n        </td>\n        <td style=\" padding-left: 0px; padding-right: 1px\">\n          <textarea class=\"form-control setp-control\" name=\"\" id=\"\" cols=\"30\" rows=\"1\" placeholder=\"simon@mail.com\" style=\"padding-left: 5px; padding-right: 0px\"></textarea>\n        </td>\n      </tr>\n      <tr *ngFor=\"let item of items | async\">\n        <td>{{$index+1}}</td>\n        <td>{{item.role}}</td>\n        <td>{{item.company}}</td>\n        <td>{{item.address}}</td>\n        <td>{{item.contact_name}}</td>\n        <td>{{item.tel}}</td>\n        <td>{{item.email}}</td>\n      </tr>\n    </tbody>\n  </table>\n  <!-- <br>\n  <div>\n    <button type=\"button\" class=\"btn btn-primary btn-simple pull-right\" ng-click=\"addRegister(comp)\">Save</button>\n  </div> -->\n</div>"
+module.exports = "<div class=\"card card-plain col-md-12\" style=\" padding-left: 0px; padding-right: 0px\">\n  <button type=\"button\" class=\"btn btn-info btn-simple\" data-toggle=\"modal\" data-target=\"#myModal\">Company Directory</button>\n<table class=\"table table-bordered table-striped\">\n    <thead>\n      <tr>\n        <th>Role</th>\n        <th>Company</th>\n        <th>Address</th>\n        <th>Contact Name</th>\n        <th>Tel</th>\n        <th>Mobile</th>\n        <th>Email Address</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td style=\" padding-left: 0px; padding-right: 0px\">\n          <input class=\"form-control setp-control-xs\" name=\"company_role\" id=\"\" cols=\"30\" rows=\"1\" placeholder=\"Principal\" style=\"padding-left: 5px; padding-right: 5px\" [(ngModel)]=\"company_role\" ></td>\n        <td style=\" padding-left: 0px; padding-right: 0px\">\n          <input class=\"form-control setp-control-xs\" name=\"company_name\" id=\"\" cols=\"30\" rows=\"1\" placeholder=\"Southland\" style=\"padding-left: 5px; padding-right: 5px\" [(ngModel)]=\"company_name\"></td>\n        <td style=\"padding-top:1.em; padding-left: 0px; padding-right: 0px\">\n          <input class=\"form-control setp-control\" name=\"company_address\" id=\"\" cols=\"50\" rows=\"1\" placeholder=\"1 First Street\" style=\"padding-left: 5px; padding-right: 5px\"[(ngModel)]=\"company_address\"></td>\n        <td style=\" padding-left: 0px; padding-right: 0px\">\n          <input class=\"form-control setp-control\" name=\"company_user_contact\" id=\"\" cols=\"30\" rows=\"1\" placeholder=\"Simon Moyo\" style=\"padding-left: 5px; padding-right: 5px\" [(ngModel)]=\"company_user_contact\"></td>\n        <td style=\" padding-left: 0px; padding-right: 0px\">\n          <input class=\"form-control setp-control-txt\" name=\"company_tel\" id=\"\" cols=\"30\" rows=\"1\" placeholder=\"042585255\" style=\"padding-left: 5px; padding-right: 5px\" [(ngModel)]=\"company_tel\"></td>\n        <td style=\" padding-left: 0px; padding-right: 0px\">\n          <input class=\"form-control setp-control-txt\" name=\"company_mobile\" id=\"\" cols=\"30\" rows=\"1\" placeholder=\"0785245225\" style=\"padding-left: 5px; padding-right: 5px\" [(ngModel)]=\"company_mobile\"></td>\n        <td style=\" padding-left: 0px; padding-right: 1px\">\n          <input class=\"form-control setp-control\" name=\"user_email\" id=\"\" cols=\"30\" rows=\"1\" placeholder=\"simon@mail.com\" style=\"padding-left: 5px; padding-right: 0px\" [(ngModel)]=\"user_email\"></td>\n        <td style=\"width: 1em;padding-left: 0px;padding-right: 0px; border-left-width: 0px;border-right-width: 0px;\"><a style=\"padding-left: 8px;padding-right: 8px;\" class=\"btn btn-primary btn-simple\" (click)=\"save2directory()\"><i class=\"fa fa-plus fw\"> </i> </a></td>\n      </tr>\n      <tr *ngFor=\"let item of items | async\">\n        <!-- <td>{{$index+1}}</td> -->\n        <td>{{item.company_role}}</td>\n        <td>{{item.company_name}}</td>\n        <td>{{item.company_address}}</td>\n        <td>{{item.company_user_contact}}</td>\n        <td>{{item.company_tel}}</td>\n        <td>{{item.company_mobile}}</td>\n        <td>{{item.user_email}}</td>\n      </tr>\n    </tbody>\n  </table>\n  <!-- <br>\n  <div>\n    <button type=\"submit\" class=\"btn btn-primary btn-simple pull-right\" (click)=\"saveItem()\">Save</button>\n  </div> -->\n</div>\n<!-- style=\"\n    padding-left: 8px;\n    padding-right: 8px;\n\" -->"
 
 /***/ }),
 
@@ -10855,23 +11379,23 @@ var ProjectDirectoryComponent = (function () {
     function ProjectDirectoryComponent(location, db) {
         this.location = location;
         this.db = db;
-        this.items = db.collection('companydirectory', function (ref) { return ref.orderBy('name'); }).valueChanges();
+        this.items = db.collection('companydirectory', function (ref) { return ref.orderBy('company_name'); }).valueChanges();
     }
-    ProjectDirectoryComponent.prototype.saveItem = function () {
+    ProjectDirectoryComponent.prototype.save2directory = function () {
         // console.log('dimond');
         this.db.collection('companydirectory').add({
             'company_role': this.company_role,
             'company_name': this.company_name,
             'company_address': this.company_address,
-            'company_contact': this.company_contact,
+            'company_user_contact': this.company_user_contact,
             'company_tel': this.company_tel,
             'company_mobile': this.company_mobile,
-            'company_email': this.company_email,
+            'user_email': this.user_email,
         });
-        this.company_email = '';
+        this.user_email = '';
         this.company_mobile = '';
         this.company_tel = '';
-        this.company_contact = '';
+        this.company_user_contact = '';
         this.company_address = '';
         this.company_name = '';
         this.company_role = '';
@@ -11004,7 +11528,7 @@ module.exports = ""
 /***/ "./src/app/comps/colorspages/projects/setup/setup.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"nav-tabs-wrapper\">\n  <ul id=\"tabs\" class=\"nav nav-tabs\" data-tabs=\"tabs\">\n    <li class=\"active\">\n      <a data-target=\"#costsummary\" data-toggle=\"tab\" aria-expanded=\"true\">Project Cost Summary</a>\n    </li>\n    <li>\n      <a data-target=\"#description\" data-toggle=\"tab\" aria-expanded=\"true\">Project Description</a>\n    </li>\n    <li>\n      <a data-target=\"#labour\" data-toggle=\"tab\" aria-expanded=\"true\">Project Department</a>\n    </li>\n    <li>\n      <a data-target=\"#directory\" data-toggle=\"tab\" aria-expanded=\"true\">Project Directory</a>\n    </li>\n </ul>\n</div>\n<div id=\"my-tab-content\" class=\"tab-content\">\n  <div class=\"tab-pane active\" id=\"costsummary\">\n\n      <app-cost-test></app-cost-test>\n\n  </div>\n  <div class=\"tab-pane \" id=\"description\">\n\n    <app-project-description></app-project-description>\n\n  </div>\n  <div class=\"tab-pane \" id=\"labour\">\n\n    <app-project-department></app-project-department>\n\n  </div>\n   <div class=\"tab-pane\" id=\"directory\">\n\n    <app-project-directory></app-project-directory>\n    <!-- <app-project-directory></app-project-directory> -->\n\n  </div>\n  <!-- <div class=\"tab-pane \" id=\"plant\">\n\n      <app-project-plant></app-project-plant>\n\n\n  </div> -->\n</div>\n"
+module.exports = "<div class=\"nav-tabs-wrapper\">\n  <ul id=\"tabs\" class=\"nav nav-tabs\" data-tabs=\"tabs\">\n    <li class=\"active\">\n      <a data-target=\"#costsummary\" data-toggle=\"tab\" aria-expanded=\"true\">Project Cost Summary</a>\n    </li>\n    <li>\n      <a data-target=\"#description\" data-toggle=\"tab\" aria-expanded=\"true\">Project Description</a>\n    </li>\n    <li>\n      <a data-target=\"#labour\" data-toggle=\"tab\" aria-expanded=\"true\">Project Department</a>\n    </li>\n    <li>\n      <a data-target=\"#directory\" data-toggle=\"tab\" aria-expanded=\"true\">Project Directory</a>\n    </li>\n </ul>\n</div>\n<div id=\"my-tab-content\" class=\"tab-content\">\n  <div class=\"tab-pane active \" id=\"costsummary\">\n      <app-project-cost></app-project-cost>\n      <!-- <app-cost-test></app-cost-test> -->\n\n  </div>\n  <div class=\"tab-pane\" id=\"description\">\n\n    <app-project-description></app-project-description>\n\n  </div>\n  <div class=\"tab-pane \" id=\"labour\">\n\n    <app-project-department></app-project-department>\n\n  </div>\n   <div class=\"tab-pane\" id=\"directory\">\n\n    <app-project-directory></app-project-directory>\n    <!-- <app-project-directory></app-project-directory> -->\n\n  </div>\n  <!-- <div class=\"tab-pane \" id=\"plant\">\n\n      <app-project-plant></app-project-plant>\n\n\n  </div> -->\n</div>\n"
 
 /***/ }),
 
@@ -11054,7 +11578,7 @@ module.exports = ""
 /***/ "./src/app/comps/colorspages/projects/submenu/submenu.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"main-content\" style=\"padding-top: 0px; margin-left: 0px; margin-right: 0px;\">\n  <div class=\"container-fluid\">\n    \n    <div class=\"row\">\n      <div class=\"col-lg-12 col-md-12\" style=\"padding-left: 0px; padding-right: 0px;\">\n        <div class=\"card\">\n          <div class=\"row\">\n            <div class=\"col-md-10\">\n              <div class=\"card-header\"style=\"margin-top:2em ;margin-bottom:1em\">\n                <h4 class=\"card-title\">Project Name</h4>\n                <!-- <p class=\"category\">Vertical tabs</p> -->\n              </div>\n            </div>\n            <div class=\"btn-magnify\">\n              <div class=\"card-header\"style=\"margin-top:2em ;margin-bottom:1em ;\"><!--  padding-left: 20em ; margin-left: 50px -->\n                <!-- <button type=\"button\" class=\"btn btn-primary btn-simple pull-right\" ng-click=\"addRegister(comp)\" style=\"padding-right: 6em\">Save</button> -->\n                <a routerLink=\"#\" type=\"btn btn-simple\" class=\"card-title pull-right\" style=\"padding-right: 3em\"><i class=\"fa fa-lg fa-user-plus fw\"> </i></a>\n                <!-- <p class=\"category\">Vertical tabs</p> -->\n              </div>\n              <!-- <a routerLink=\"\" type=\"button\"class=\"btn btn-simple\"> Invite </a> -->\n            </div>\n          </div>\n          <div class=\"card-content\">\n            <div class=\"row\">\n              <div class=\"left-vertical-tabs\" style=\"width: 145px\">\n                <ul class=\"nav nav-stacked\" role=\"tablist\" style=\"width:142px\">\n                  <li class=\"active\">\n                    <a href=\"#dash\" role=\"tab\" data-toggle=\"tab\">\n                      Dashboard\n                    </a>\n                  </li>\n                  <li>\n                    <a href=\"#standards\" role=\"tab\" data-toggle=\"tab\">\n                      Standards\n                    </a>\n                  </li>\n                  <li>\n                    <a href=\"#setup\" role=\"tab\" data-toggle=\"tab\">\n                      <!-- sidebar-mini=\"true\" -->\n                      Setup\n                    </a>\n                  </li>\n                  <li>\n                    <a href=\"#planning\" role=\"tab\" data-toggle=\"tab\">\n                      Planning\n                    </a>\n                  </li>\n                  <li>\n                    <a href=\"#impl\" role=\"tab\" data-toggle=\"tab\">\n                      Implementation\n                    </a>\n                  </li>\n                  <li>\n                    <a href=\"#setup\" role=\"tab\" data-toggle=\"tab\">\n                      Reporting\n                    </a>\n                  </li>\n                </ul>\n              </div>\n              <div class=\"right-text-tabs\" style=\"padding-left: 0em\">\n                <!-- Tab panes -->\n                <div class=\"tab-content\">\n                  <div class=\"tab-pane active\" id=\"dash\">\n                     <!-- <app-boss></app-boss> -->\n                     <personal-dashboard-cmp></personal-dashboard-cmp>\n                  </div>\n                  <div class=\"tab-pane\" id=\"standards\">\n                    <app-big></app-big>\n                  </div>\n                  <div class=\"tab-pane\" id=\"setup\">\n                       <app-projects-setup></app-projects-setup>\n                  </div>\n                  <div class=\"tab-pane\" id=\"planning\">\n                    <app-planning></app-planning>\n                  </div>\n                  <div class=\"tab-pane\" id=\"impl\">\n                    <app-projects-implementation></app-projects-implementation>\n                  </div>\n                  <div class=\"tab-pane\" id=\"report\">\n                    <app-report></app-report>\n                  </div>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n\n  </div>\n</div>"
+module.exports = "<div class=\"main-content\" style=\"padding-top: 0px; margin-left: 0px; margin-right: 0px;\">\n  <div class=\"container-fluid\">\n    \n    <div class=\"row\">\n      <div class=\"col-lg-12 col-md-12\" style=\"padding-left: 0px; padding-right: 0px;\">\n        <div class=\"card\">\n          <div class=\"row\">\n            <div class=\"col-md-10\">\n              <div class=\"card-header\"style=\"margin-top:2em ;margin-bottom:1em\">\n                <h4 class=\"card-title\">Project Name</h4>\n                <!-- <p class=\"category\">Vertical tabs</p> -->\n              </div>\n            </div>\n            <!-- <div class=\"btn-magnify\"> -->\n              <!-- <div class=\"card-header\"style=\"margin-top:2em ;margin-bottom:1em ;\"> padding-left: 20em ; margin-left: 50px -->\n                <!-- <button type=\"button\" class=\"btn btn-primary btn-simple pull-right\" ng-click=\"addRegister(comp)\" style=\"padding-right: 6em\">Save</button> -->\n                <!-- <div class=\"collapse navbar-collapse\">\n                 <ul class=\"nav navbar-nav navbar-right\">\n                    <li class=\"dropdown\">  \n                      <a routerLink=\"#\" type=\"btn btn-simple\" class=\"card-title pull-right\" style=\"padding-right: 3em\"><i class=\"fa fa-lg fa-user-plus fw\"></i><span class=\"notification\">3</span></a>\n                      <ul class=\"dropdown-menu\">\n                          <li><a href=\"#not1\">Notification 1</a></li>\n                          <li><a href=\"#not2\">Notification 2</a></li>\n                          <li><a href=\"#not3\">Notification 3</a></li>\n                          <li><a href=\"#not4\">Notification 4</a></li>\n                          <li><a href=\"#another\">Another notification</a></li>\n                      </ul>\n                    </li>\n                  </ul>\n                </div> -->\n                <div class=\"collapse navbar-collapse\" style=\"margin-top:1em ;margin-bottom:1em ; margin-right: 2em; padding-left: 18em ; margin-left: 50px\">\n                  <ul class=\"nav navbar-nav navbar-right\">\n                      <li>\n                          <a href=\"#\" class=\"dropdown-toggle btn-magnify\" data-toggle=\"dropdown\">\n                              <i class=\"fa fa-lg fa-user-plus fw\"></i><span class=\"notification\" style=\" vertical-align: super;\">3</span></a>\n                          <ul class=\"dropdown-menu\">\n                              <li>\n                                  <a routerLink=\"../projects\">\n                                      <i class=\"ti-palette\"></i> Shallwin\n                                      <span style=\"float:right\" class=\"ng-hide has-color-warm\">PM</span></a>\n                              </li>\n                              <li ng-repeat=\"project in projects | limitTo:-8\" class=\"ng-scope\">\n                                  <a routerLink=\"../directory-wizard\" ng-click=\"setActiveProject(project)\" class=\"ng-binding\">\n                                      <i class=\"ti-layout-tab-v\"></i> Kuziva \n                                      <span style=\"float:right\" class=\"ng-hide has-warn\">EP</span>\n                                  </a>\n                              </li>\n                              <li>\n                                  <a routerLink=\"/colprojects/stats\">\n                                      <i class=\"fa fa-tasks fa-fw\"></i> Colours <span style=\"float:right\" class=\"ng-hide has-color-warm\"><i class=\"ti ti-sharethis\"></i></span></a>\n                              </li>\n                          </ul>\n                      </li>\n                    </ul>\n                  </div>\n                  <!-- <p class=\"category\">Vertical tabs</p> -->\n              <!-- </div> -->\n              <!-- <a routerLink=\"\" type=\"button\"class=\"btn btn-simple\"> Invite </a> -->\n            <!-- </div> -->\n          </div>\n          <div class=\"card-content\">\n            <div class=\"row\">\n              <div class=\"left-vertical-tabs\" style=\"width: 145px\">\n                <ul class=\"nav nav-stacked\" role=\"tablist\" style=\"width:142px\">\n                  <li class=\"active\">\n                    <a href=\"#dash\" role=\"tab\" data-toggle=\"tab\">\n                      Dashboard\n                    </a>\n                  </li>\n                  <li>\n                    <a href=\"#standards\" role=\"tab\" data-toggle=\"tab\">\n                      Standards\n                    </a>\n                  </li>\n                  <li>\n                    <a href=\"#setup\" role=\"tab\" data-toggle=\"tab\">\n                      <!-- sidebar-mini=\"true\" -->\n                      Setup\n                    </a>\n                  </li>\n                  <li>\n                    <a href=\"#planning\" role=\"tab\" data-toggle=\"tab\">\n                      Planning\n                    </a>\n                  </li>\n                  <li>\n                    <a href=\"#impl\" role=\"tab\" data-toggle=\"tab\">\n                      Implementation\n                    </a>\n                  </li>\n                  <li>\n                    <a href=\"#setup\" role=\"tab\" data-toggle=\"tab\">\n                      Reporting\n                    </a>\n                  </li>\n                </ul>\n              </div>\n              <div class=\"right-text-tabs\" style=\"padding-left: 0em\">\n                <!-- Tab panes -->\n                <div class=\"tab-content\">\n                  <div class=\"tab-pane\" id=\"dash\">\n                     <!-- <app-boss></app-boss> -->\n                     <personal-dashboard-cmp></personal-dashboard-cmp>\n                  </div>\n                  <div class=\"tab-pane\" id=\"standards\">\n                    <app-big></app-big>\n                  </div>\n                  <div class=\"tab-pane active\" id=\"setup\">\n                       <app-projects-setup></app-projects-setup>\n                  </div>\n                  <div class=\"tab-pane\" id=\"planning\">\n                    <app-planning></app-planning>\n                  </div>\n                  <div class=\"tab-pane\" id=\"impl\">\n                    <app-projects-implementation></app-projects-implementation>\n                  </div>\n                  <div class=\"tab-pane\" id=\"report\">\n                    <app-report></app-report>\n                  </div>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n\n  </div>\n</div>"
 
 /***/ }),
 
@@ -16187,16 +16711,16 @@ var environment = {
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/@angular/core.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__("./node_modules/@angular/platform-browser-dynamic/@angular/platform-browser-dynamic.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__("./src/app/app.module.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__("./src/environments/environment.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_app_app_module__ = __webpack_require__("./src/app/app.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_environments_environment__ = __webpack_require__("./src/environments/environment.ts");
 
 
 
 
-if (__WEBPACK_IMPORTED_MODULE_3__environments_environment__["a" /* environment */].production) {
+if (__WEBPACK_IMPORTED_MODULE_3_environments_environment__["a" /* environment */].production) {
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_23" /* enableProdMode */])();
 }
-Object(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_2__app_app_module__["a" /* AppModule */]);
+Object(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_2_app_app_module__["a" /* AppModule */]);
 //# sourceMappingURL=main.js.map
 
 /***/ }),
